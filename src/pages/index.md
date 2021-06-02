@@ -4,21 +4,17 @@ hide_title: true
 sections:
   - section_id: hero
     type: section_hero
-    title: 'Hi, I''m Stackbit Fresh.'
+    title: 'Hi, I''m Reme Le Hane'
     content: >-
-      This section can contain a subtitle or tagline. The recommended length is
-      one to three sentences, but can be changed as you prefer.
+      Flutter Developer.
   - section_id: about
     type: section_content
     title: About
     content: >-
-      This is the "about" excerpt. It can be used to provide a paragraph about
-      yourself that people can read on the homepage to get a sense of who you
-      are. There also exists a dedicated about page where you can write more
-      about yourself for those who are interested.
+        Currently working at 20Fifty, a Flutter development house, following my passion of working as much as I can in the flutter space...
     actions:
-      - label: Contact Me
-        url: /contact
+      - label: More About Me
+        url: /about
         style: button
   - section_id: recent-posts
     type: section_posts
@@ -29,17 +25,17 @@ sections:
         url: blog/index.html
         style: button
 seo:
-  title: Stackbit Fresh Theme
-  description: The preview of the Fresh theme
+  title: Reme Le Hane | Flutter Developer
+  description: Flutter Developer
   extra:
     - name: 'og:type'
       value: website
       keyName: property
     - name: 'og:title'
-      value: Stackbit Fresh Theme
+      value: Reme Le Hane | Flutter Developer
       keyName: property
     - name: 'og:description'
-      value: The preview of the Fresh theme
+      value: Reme Le Hane | Flutter Developer
       keyName: property
     - name: 'og:image'
       value: images/4.jpg
@@ -48,9 +44,9 @@ seo:
     - name: 'twitter:card'
       value: summary_large_image
     - name: 'twitter:title'
-      value: Stackbit Fresh Theme
+      value: Reme Le Hane | Flutter Developer
     - name: 'twitter:description'
-      value: The preview of the Fresh theme
+      value: Reme Le Hane | Flutter Developer
     - name: 'twitter:image'
       value: images/4.jpg
       relativeUrl: true

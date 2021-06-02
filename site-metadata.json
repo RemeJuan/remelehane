@@ -3,7 +3,7 @@
     "palette": "blue",
     "header": {
         "title": "Reme Le Hane",
-        "tagline": "Runner, Cyclist, Developer, Gamer.",
+        "tagline": "Developer, Cyclist, Runner. #Flutter",
         "profile_img": "https://res.cloudinary.com/practicaldev/image/fetch/s--qlE0Cz0h--/c_fill,f_auto,fl_progressive,h_320,q_auto,w_320/https://dev-to-uploads.s3.amazonaws.com/uploads/user/profile_image/37853/4ac99855-4657-4d86-8f6e-3c972c4060be.jpeg",
         "profile_img_alt": "Author avatar",
         "background": "dark",
@@ -20,18 +20,8 @@
                 "style": "link"
             },
             {
-                "label": "Style Guide",
-                "url": "/style-guide/",
-                "style": "link"
-            },
-            {
                 "label": "About",
                 "url": "/about/",
-                "style": "link"
-            },
-            {
-                "label": "Contact",
-                "url": "/contact/",
                 "style": "link"
             }
         ],
@@ -57,19 +47,18 @@
                 "style": "icon",
                 "icon_class": "dev",
                 "new_window": true
+            },
+            {
+                "label": "LinkedIn",
+                "url": "http://za.linkedin.com/in/remelehane",
+                "style": "icon",
+                "icon_class": "linkedin",
+                "new_window": true
             }
         ]
     },
     "footer": {
-        "content": "&copy; Stackbit. All rights reserved. This Jamstack site was created with <a href=\"https://www.stackbit.com/?utm_source=deployed-footer\" target=\"_blank\" rel=\"noopener\">Stackbit</a>. Create yours <a href=\"https://app.stackbit.com/create?theme=fresh&utm_source=deployed-footer\" target=\"_blank\" rel=\"noopener\">now</a>",
-        "links": [
-            {
-                "label": "Generated from DEV",
-                "url": "https://dev.to/connecting-with-stackbit",
-                "new_window": true,
-                "style": "link"
-            }
-        ]
+        "content": "&copy; Reme Le Hane. All rights reserved. This Jamstack site was created with <a href=\"https://www.stackbit.com/?utm_source=deployed-footer\" target=\"_blank\" rel=\"noopener\">Stackbit</a>."
     },
-    "title": "Stackbit Fresh Theme"
+    "title": "Reme Le Hane | Flutter Developer"
 }
