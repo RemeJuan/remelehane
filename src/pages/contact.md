@@ -40,16 +40,16 @@ seo:
       value: website
       keyName: property
     - name: 'og:title'
-      value: Contact
+      value: Contact | Reme Le Hane | Flutter Developer
       keyName: property
     - name: 'og:description'
-      value: This is the contact page
+      value: Contact | Reme Le Hane | Flutter Developer
       keyName: property
     - name: 'twitter:card'
       value: summary
     - name: 'twitter:title'
-      value: Contact
+      value: Contact | Reme Le Hane | Flutter Developer
     - name: 'twitter:description'
-      value: This is the contact page
+      value: Contact | Reme Le Hane | Flutter Developer
 template: advanced
 ---
