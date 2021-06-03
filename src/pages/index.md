@@ -11,7 +11,8 @@ sections:
     type: section_content
     title: About
     content: >-
-        Currently working at 20Fifty, a Flutter development house, following my passion of working as much as I can in the flutter space...
+      Hi there, names Reme and I spend my working hours on [Flutter](https://flutter.dev) projects and before that I spent many years working with [ReactJS](https://reactjs.org).
+      <p>Outside of work I really enjoy Mountain Biking, Trail Running, Hiking and in general just being outdoors.</p>
     actions:
       - label: More About Me
         url: /about
