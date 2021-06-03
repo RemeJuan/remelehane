@@ -2,7 +2,7 @@
 title: About
 hide_title: false
 seo:
-  title: Reme Le Hane | Flutter Developer
+  title: About | Reme Le Hane | Flutter Developer
   description: Flutter Developer
   extra:
     - name: 'og:type'
