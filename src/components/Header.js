@@ -67,6 +67,16 @@ export default class Header extends React.Component {
                           ))}
                         </div>
                         )}
+                        <a
+                            href="https://www.buymeacoffee.com/remelehane"
+                            target="_blank"
+                        >
+                            <img
+                                src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png"
+                                alt="Buy Me A Coffee"
+                                style={{height: 60, width: 217, marginTop: 10}}
+                            />
+                        </a>
                       </div>
                     </div>
                   </nav>
