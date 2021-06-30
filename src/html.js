@@ -6,6 +6,7 @@ export default function HTML(props) {
     <html {...props.htmlAttributes}>
       <head>
         {props.headComponents}
+        <meta name="monetization" content="$ilp.uphold.com/a94qaRkK9ek6"/>
       </head>
       <body {...props.bodyAttributes}>
         {props.preBodyComponents}
