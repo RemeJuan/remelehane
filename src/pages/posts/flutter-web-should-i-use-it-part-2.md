@@ -10,6 +10,7 @@ tags:
   - flutter
   - flutterwebdeployment
 template: post
+thumb_img_path: https://cdn-images-1.medium.com/max/4800/1*DTmKsPfjSR-mjw7sqeVwyQ.jpeg
 ---
 
 ## Flutter Web: Should I use it? (Part 2— Performance)
