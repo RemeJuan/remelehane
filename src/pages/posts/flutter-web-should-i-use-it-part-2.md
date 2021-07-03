@@ -1,5 +1,5 @@
 ---
-title: 'Flutter Web: Should I use it? (Part 3 — Performance)'
+title: 'Flutter Web: Should I use it? (Part 2 — Performance)'
 stackbit_url_path: posts/flutter-web-should-i-use-it-part-2
 date: '2021-06-27T14:35:35.000Z'
 excerpt: >-
@@ -9,7 +9,7 @@ tags:
   - flutterdevelopment
   - flutter
   - flutterwebdeployment
-template: post
+template: pos
 ---
 
 ## Flutter Web: Should I use it? (Part 2— Performance)
