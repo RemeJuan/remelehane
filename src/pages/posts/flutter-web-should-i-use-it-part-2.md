@@ -58,6 +58,12 @@ As you can see one of the first metrics the site “fails” on is *First Conten
 
 Further down the page, you will see specific diagnostics pointing to specific “pain” points for the site, one of the main ones being the main.js file which right now is quite large so not only takes some time to download but also time to process.
 
+We also need to conisder that this was run against an HTML build, flutter can be optionally built specifying either to use `canvaskit` or `html` as the rendering engine, for reasons I had to specify HTML, however by default it will effectivel ybuild with both, opting for `canvaskit `on desktop and `html`on mobile. 
+
+This would mean that on desktop, there would be an additional 2.5 - 3mb for the `wasm` web assembly file that is needed for `canvaskit` which would have an additional cost towards download speed and First Contentful pait.
+
+Lighthouse, is also an indicator of a users first visist, or first visit per deploy, which would pretty much be the worst case scneario, susequint visits would be substantially faster, as many, if not most, of the files would be cached on the users device so they should in effect on experience this long delay once per app deploy.
+
 ### What can we do to improve these…
 
 For either of these factors, right now there is not too much you as the developer can do to help improve or mitigate these unless of course, you are experienced enough to be able to help the core team improving Flutter web.
