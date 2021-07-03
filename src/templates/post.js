@@ -4,6 +4,7 @@ import moment from 'moment-strftime';
 import {graphql} from 'gatsby';
 
 import {Layout} from '../components/index';
+import SEO from "../components/SEO";
 import {htmlToReact, withPrefix} from '../utils';
 
 // this minimal GraphQL query ensures that when 'gatsby develop' is running,
@@ -18,8 +19,31 @@ export const query = graphql`
 
 export default class Post extends React.Component {
     render() {
+        let twitter = '';
+        if (
+            _.get(this.props, "pageContext.site.siteMetadata.footer.has_social") &&
+            _.get(this.props, "pageContext.site.siteMetadata.footer.social_links")
+        ) {
+            let social_links = _.get(
+                this.props,
+                "pageContext.site.siteMetadata.footer.social_links"
+            );
+            let twitter =
+                "@" +
+                social_links
+                    .find((element) => element.label === "Twitter")
+                    .url.split("/")
+                    .pop();
+        }
         return (
             <Layout {...this.props}>
+                <SEO
+                    title={_.get(this.props, "pageContext.frontmatter.title")}
+                    description={_.get(this.props, "pageContext.frontmatter.excerpt")}
+                    image={withPrefix(_.get(this.props, "pageContext.frontmatter.thumb_img_path"))}
+                    pathname={this.props.location.pathname}
+                    author={twitter}
+                />
               <article className="post post-full">
                 <header className="post-header inner-sm">
                   <h1 className="post-title underline">{_.get(this.props, 'pageContext.frontmatter.title', null)}</h1>
