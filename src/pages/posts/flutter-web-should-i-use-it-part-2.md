@@ -9,7 +9,7 @@ tags:
   - flutterdevelopment
   - flutter
   - flutterwebdeployment
-template: pos
+template: post
 ---
 
 ## Flutter Web: Should I use it? (Part 2— Performance)
