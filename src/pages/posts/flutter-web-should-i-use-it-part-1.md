@@ -1,7 +1,6 @@
 ---
-title: Flutter Web: Should I use it? (Part 1 — SEO)
+title: 'Flutter Web: Should I use it? (Part 1 — SEO)'
 stackbit_url_path: posts/flutter-web-should-i-use-it-part-1
-title: Handling race conditions with redux-thunk
 date: '2021-06-20T12:35:28.000Z'
 excerpt: >-
   Many times online the question has been asked “Is flutter good for web”, and what many developers fail to truly understand is that is a very broad and open question and there are many factors that go into saying yes, no or maybe.
