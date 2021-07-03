@@ -10,6 +10,7 @@ tags:
   - fastlane
   - ios
 template: post
+thumb_img_path: https://cdn.jsdelivr.net/gh/RemeJuan/remelehane@master/uPic/1*8vESVWZfAnEeICajgWOODA.jpeg
 ---
 
 

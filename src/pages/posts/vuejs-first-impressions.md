@@ -11,10 +11,11 @@ tags:
   - javascript
   - webdev
 template: post
+thumb_img_path: https://cdn.jsdelivr.net/gh/RemeJuan/remelehane@master/uPic/gzic0j1dmzjhd0p2i727.jpeg
 ---
 
 
-![1*nq9cdMxtdhQ0ZGL8OuSCUQ.jpeg](https://cdn.jsdelivr.net/gh/RemeJuan/remelehane@master/uPic/gzic0j1dmzjhd0p2i727.jpeg)
+![VueJS logo](https://cdn.jsdelivr.net/gh/RemeJuan/remelehane@master/uPic/gzic0j1dmzjhd0p2i727.jpeg)
 
 With all the new libraries and frameworks it is pretty hard to keep up with all of them, and that is if you can even decide which ones are worth spending time one, over the last year or so I was exposed to many a new tech stack, with React for work and just personally playing around with React-Native, Aurelia and Angular2. Each of them attached to a new project, partly justified by wanting to try it out or form my own opinion.
 

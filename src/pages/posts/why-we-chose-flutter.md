@@ -11,10 +11,11 @@ tags:
   - hybridappdevelopment
   - flutter
 template: post
+thumb_img_path: https://cdn.jsdelivr.net/gh/RemeJuan/remelehane@master/uPic/1*yM3feYmhF04LRjVoWFyWaQ.jpeg
 ---
 
 
-![](https://cdn.jsdelivr.net/gh/RemeJuan/remelehane@master/uPic/1*yM3feYmhF04LRjVoWFyWaQ.jpeg)
+![Why We Chose flutter banner image](https://cdn.jsdelivr.net/gh/RemeJuan/remelehane@master/uPic/1*yM3feYmhF04LRjVoWFyWaQ.jpeg)
 
 Some would wonder why a company whos development team speaks almost exclusively Javascript would choose flutter to build their next product.
 

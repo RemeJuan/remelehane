@@ -10,6 +10,7 @@ tags:
   - fluttermobile
   - flutterdevelopment
 template: post
+thumb_img_path: https://cdn.jsdelivr.net/gh/RemeJuan/remelehane@master/uPic/1*1orxIbVfgZa4mB_qEL17Yg.jpeg
 ---
 
 ![](https://cdn.jsdelivr.net/gh/RemeJuan/remelehane@master/uPic/1*1orxIbVfgZa4mB_qEL17Yg.jpeg)

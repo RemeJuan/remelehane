@@ -10,9 +10,10 @@ tags:
   - iffff
   - javascript
 template: post
+thumb_img_path: https://cdn.jsdelivr.net/gh/RemeJuan/remelehane@master/uPic/1*yPXQ1XYpS3VHJsPrLK24FQ.png
 ---
 
-![](https://cdn.jsdelivr.net/gh/RemeJuan/remelehane@master/uPic/1*yPXQ1XYpS3VHJsPrLK24FQ.png)
+![If This Then That banner image](https://cdn.jsdelivr.net/gh/RemeJuan/remelehane@master/uPic/1*yPXQ1XYpS3VHJsPrLK24FQ.png)
 
 I have been on the pro subscription for [IFTTT](http://ifttt.com), and was not until recently that I decided to actually take in and take a look at just what it could do.
 

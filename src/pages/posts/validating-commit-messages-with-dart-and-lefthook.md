@@ -11,10 +11,11 @@ tags:
   - flutterdevelopment
   - git
 template: post
+thumb_img_path: https://cdn.jsdelivr.net/gh/RemeJuan/remelehane@master/uPic/1*kproRaJTnQivymfDqsxTkg.jpeg
 ---
 
 
-![](https://cdn.jsdelivr.net/gh/RemeJuan/remelehane@master/uPic/1*kproRaJTnQivymfDqsxTkg.jpeg)
+![Validate Commit Messages Banner Image](https://cdn.jsdelivr.net/gh/RemeJuan/remelehane@master/uPic/1*kproRaJTnQivymfDqsxTkg.jpeg)
 
 Something I had been trying to work out for my Flutter project for some time was validating commit messages, initially, I used commit-msg-validate but having a node dependency in a Flutter/Dart project does not seem right and when the team grew to beyond myself I worked on moving all of the automation scripts I had written in JS over to dart and while there are still a few node dependencies left, they are purely for use in the CI pipeline.
 

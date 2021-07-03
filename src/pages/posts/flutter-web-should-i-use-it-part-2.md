@@ -10,12 +10,12 @@ tags:
   - flutter
   - flutterwebdeployment
 template: post
-thumb_img_path: https://cdn-images-1.medium.com/max/4800/1*DTmKsPfjSR-mjw7sqeVwyQ.jpeg
+thumb_img_path: https://cdn.jsdelivr.net/gh/RemeJuan/remelehane@main/uPic/1*DTmKsPfjSR-mjw7sqeVwyQ-20210703161045175.jpeg
 ---
 
 ## Flutter Web: Should I use it? (Part 2— Performance)
 
-![Post header image](https://cdn-images-1.medium.com/max/4800/1*DTmKsPfjSR-mjw7sqeVwyQ.jpeg)
+![Post header image](https://cdn.jsdelivr.net/gh/RemeJuan/remelehane@main/uPic/1*DTmKsPfjSR-mjw7sqeVwyQ-20210703161045175.jpeg)
 
 I hope you enjoyed the first part of this series where I covered SEO and Web Scrappers and their bearing on using Flutter for Web, if you have not read it yet, it is definitely worth checking out first.
 

@@ -10,10 +10,11 @@ tags:
   - unittesting
   - flutterappdevelopmen
 template: post
+thumb_img_path: https://cdn.jsdelivr.net/gh/RemeJuan/remelehane@master/uPic/1*dqggYKcf6EZ3T2E9dRAL8A.jpeg
 ---
 
 
-![](https://cdn.jsdelivr.net/gh/RemeJuan/remelehane@master/uPic/1*dqggYKcf6EZ3T2E9dRAL8A.jpeg)
+![Flutter Logo](https://cdn.jsdelivr.net/gh/RemeJuan/remelehane@master/uPic/1*dqggYKcf6EZ3T2E9dRAL8A.jpeg)
 
 Probably not too common a use case, but for me I have a utility function for handling in-app navigation from the in-app web view webview\_flutter while it does have a generic error handler, I need to be handle errors differently based on what type of URL was selected as custom logic is required to be able to handle links that are not actually valid.
 

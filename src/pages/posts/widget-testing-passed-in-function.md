@@ -11,10 +11,11 @@ tags:
   - flutter
   - unittesting
 template: post
+thumb_img_path: https://cdn.jsdelivr.net/gh/RemeJuan/remelehane@master/uPic/1*4ezoav544ciIcSAa67ci1w.png
 ---
 
 
-![](https://cdn.jsdelivr.net/gh/RemeJuan/remelehane@master/uPic/1*4ezoav544ciIcSAa67ci1w.png)
+![Mokito logo image](https://cdn.jsdelivr.net/gh/RemeJuan/remelehane@master/uPic/1*4ezoav544ciIcSAa67ci1w.png)
 
 In this post, we going to go through how, at least in my opinion, one would go about testing that a function is called within a widget when that function is one of the Widgets arguments.
 

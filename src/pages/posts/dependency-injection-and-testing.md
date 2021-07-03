@@ -10,6 +10,7 @@ tags:
   - flutterdevelopment
   - flutterappdevelopmen
 template: post
+thumb_img_path: https://cdn.jsdelivr.net/gh/RemeJuan/remelehane@master/uPic/1*w_Hwise5fi9orTgRt5ClQA.jpeg
 ---
 
 ![Flutter Header](https://cdn.jsdelivr.net/gh/RemeJuan/remelehane@master/uPic/1*w_Hwise5fi9orTgRt5ClQA.jpeg)

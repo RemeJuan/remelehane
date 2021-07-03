@@ -11,10 +11,11 @@ tags:
   - office
   - setup
 template: post
+thumb_img_path: https://cdn.jsdelivr.net/gh/RemeJuan/remelehane@main/uPic/1*L0a5Si8dT5ACYGpfh6Whzw-20210703161824504.jpeg
 ---
 
 
-![](https://cdn-images-1.medium.com/max/1024/1*L0a5Si8dT5ACYGpfh6Whzw.jpeg)<figcaption>My main desk setup…</figcaption>
+![](https://cdn.jsdelivr.net/gh/RemeJuan/remelehane@main/uPic/1*L0a5Si8dT5ACYGpfh6Whzw-20210703161824504.jpeg)<figcaption>My main desk setup…</figcaption>
 
 ### How it all started…
 
@@ -30,7 +31,7 @@ The first week or 2 was tough, but I feel that in my specific case it was not th
 
 For me I feel that it was the general life that I lost touch with, I am a pretty active person walking my dog for 45–60 minutes each day, running or cycling 5–6 times a week and in practically a single day I ended up in a form of “prison” is limited to my backyard, which was not all that big. Honestly once I got past my own short term bout of crazy, I felt mostly for my dog, at least I understood what was going on, why I was trapped in my own home. She had gone for walks daily for years by that point, meeting with other dogs, running around and being social, she’s way more social than I am. LOL.
 
-![](https://cdn-images-1.medium.com/max/1024/1*USWBRF4ONjmCjlafkkJEYw.jpeg)<figcaption>View from my “Office”</figcaption>
+![](https://cdn.jsdelivr.net/gh/RemeJuan/remelehane@main/uPic/1*USWBRF4ONjmCjlafkkJEYw.jpeg)<figcaption>View from my “Office”</figcaption>
 
 ### Adapting to the new normal…
 
@@ -44,7 +45,7 @@ While I personally never got to a point where I felt I was unable to maintain a 
 
 In December last year, I both realised and decided that this whole WFH thing was not going to change, our office was very optional, I went at most once a month and every recruiter who mailed me get an initial response of “Is it remote?”, I had no plans on ever going back to an office and for this reason, I decided it was time to buy a house, purely for the 3rd room which would be set up for an office, abandoned my plans to leave the country realising that I do not need to be in another country to work for a company in that country, the world was adopting a more remote working philosophy.
 
-![](https://cdn-images-1.medium.com/max/1024/1*WFNfAHNP4dwgllzs29A3nw.jpeg)<figcaption>Some artwork, memories and hobbies. I dabble in lockpicking…</figcaption>
+![](https://cdn.jsdelivr.net/gh/RemeJuan/remelehane@main/uPic/1*WFNfAHNP4dwgllzs29A3nw.jpeg)<figcaption>Some artwork, memories and hobbies. I dabble in lockpicking…</figcaption>
 
 ### Going forward…
 
@@ -64,7 +65,7 @@ As for decoration, the 2 red spring you may have noticed are old coil springs fr
 
 Then let's not forget the view which you may have seen higher up in this post, the house did come with a very nice front yard, with a large tree outside my window, great for summer and keeping the sun from overheating the room, less so for winter, gets chilly. There is also the water feature/fish pond and I can even sometimes see the fish swimming around if they on the one side of the pod.
 
-![](https://cdn-images-1.medium.com/max/1024/1*K6uiKlBIYkO_nXMU5_fLlw.jpeg)<figcaption>The standing desk, with more plushies, I like plushies…</figcaption>
+![](https://cdn.jsdelivr.net/gh/RemeJuan/remelehane@main/uPic/1*K6uiKlBIYkO_nXMU5_fLlw.jpeg)<figcaption>The standing desk, with more plushies, I like plushies…</figcaption>
 
 ### Final thoughts…
 

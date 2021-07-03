@@ -10,9 +10,10 @@ tags:
   - flutter
   - mockito
 template: post
+thumb_img_path: https://cdn.jsdelivr.net/gh/RemeJuan/remelehane@master/uPic/1*KcSljL8cBi93F7WyFYOYQg.jpeg
 ---
 
-![](https://cdn.jsdelivr.net/gh/RemeJuan/remelehane@master/uPic/1*KcSljL8cBi93F7WyFYOYQg.jpeg)
+![Localization logo](https://cdn.jsdelivr.net/gh/RemeJuan/remelehane@master/uPic/1*KcSljL8cBi93F7WyFYOYQg.jpeg)
 
 The more accurate you make your test, the higher the quality of the test itself.
 

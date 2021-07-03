@@ -9,6 +9,7 @@ tags:
   - progressivewebapp
   - webpack
 template: post
+thumb_img_path: https://cdn.jsdelivr.net/gh/RemeJuan/remelehane@master/uPic/3iyxw5l0u9h1hqki52rz.png
 ---
 
 

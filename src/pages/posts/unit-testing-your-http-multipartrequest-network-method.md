@@ -11,10 +11,11 @@ tags:
   - flutterdevelopment
   - flutter
 template: post
+thumb_img_path: https://cdn.jsdelivr.net/gh/RemeJuan/remelehane@master/uPic/1*IHvlDw_HqNSpLJfsKbOr0Q.jpeg
 ---
 
 
-![](https://cdn.jsdelivr.net/gh/RemeJuan/remelehane@master/uPic/1*IHvlDw_HqNSpLJfsKbOr0Q.jpeg)
+![Circuit board image](https://cdn.jsdelivr.net/gh/RemeJuan/remelehane@master/uPic/1*IHvlDw_HqNSpLJfsKbOr0Q.jpeg)
 
 Recently I had to implement image uploading which required form data that cannot be done with the standard http.Clientand instead needs http.MultipartRequest.
 

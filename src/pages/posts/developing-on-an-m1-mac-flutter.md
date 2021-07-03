@@ -10,6 +10,7 @@ tags:
   - flutter
   - mobiledevelopment
 template: post
+thumb_img_path: https://cdn.jsdelivr.net/gh/RemeJuan/remelehane@master/uPic/1*Kt-OmebhakPpDpsbBZZHCQ.jpeg
 ---
 
 ![My desk with both the 15" i9 and 13" M1 MacBook Pro’s](https://cdn.jsdelivr.net/gh/RemeJuan/remelehane@master/uPic/1*Kt-OmebhakPpDpsbBZZHCQ.jpeg)<figcaption>My desk with both the 15" i9 and 13" M1 MacBook Pro’s</figcaption>

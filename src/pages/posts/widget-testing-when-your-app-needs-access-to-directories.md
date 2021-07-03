@@ -10,10 +10,11 @@ tags:
   - flutter
   - unittesting
 template: post
+thumb_img_path: https://cdn.jsdelivr.net/gh/RemeJuan/remelehane@master/uPic/1*bnm8sRPmozmm0_tgnN97WQ.png
 ---
 
 
-![](https://cdn.jsdelivr.net/gh/RemeJuan/remelehane@master/uPic/1*bnm8sRPmozmm0_tgnN97WQ.png)
+![Image of simulated mobile phones](https://cdn.jsdelivr.net/gh/RemeJuan/remelehane@master/uPic/1*bnm8sRPmozmm0_tgnN97WQ.png)
 
 Many times in an application you would have a need to store files, temporarily or even permanently. For this, you are probably going to be using [path\_provider](https://pub.dev/packages/path_provider), however, those methods are not going to simply work when running a widget test.
 

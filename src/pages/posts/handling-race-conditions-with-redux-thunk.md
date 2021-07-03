@@ -9,10 +9,11 @@ tags:
   - racecondition
   - redux
 template: post
+thumb_img_path: https://cdn-images-1.medium.com/max/500/1*vuRVtzCDBnbF_YINN6uKRg.png
 ---
 
 
-![](https://cdn-images-1.medium.com/max/500/1*vuRVtzCDBnbF_YINN6uKRg.png)
+![Redux Logo](https://cdn-images-1.medium.com/max/500/1*vuRVtzCDBnbF_YINN6uKRg.png)
 
 One very important feature included in many modern web applications is search, our users always need to be able to find something, recently I had to hook up a “real-time” search powered by [_elastic search_](https://www.elastic.co)_,_ as the user types we start returning a short list of what is potentially the most relevant to what your typing.
 

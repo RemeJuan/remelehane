@@ -10,12 +10,13 @@ tags:
   - flutter
   - flutterappdevelopmen
 template: post
+thumb_img_path: https://cdn.jsdelivr.net/gh/RemeJuan/remelehane@master/uPic/1*68CvCy_f3PM9C7fQB1cWLg.jpeg
 ---
 
 
 ### React to Flutter: One Developers Journey — Part 2
 
-![](https://cdn.jsdelivr.net/gh/RemeJuan/remelehane@master/uPic/1*68CvCy_f3PM9C7fQB1cWLg.jpeg)
+![React to Flutter: One Developers Journey Banner](https://cdn.jsdelivr.net/gh/RemeJuan/remelehane@master/uPic/1*68CvCy_f3PM9C7fQB1cWLg.jpeg)
 
 If you haven’t yet, check out part 1:
 

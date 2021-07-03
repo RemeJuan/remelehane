@@ -10,6 +10,7 @@ tags:
   - flutter
   - flutterwebdeployment
 template: post
+thumb_img_path: https://cdn.jsdelivr.net/gh/RemeJuan/remelehane@master/uPic/1*DTmKsPfjSR-mjw7sqeVwyQ-20210703101645334.jpeg
 ---
 
 
