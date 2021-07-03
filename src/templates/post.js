@@ -28,7 +28,7 @@ export default class Post extends React.Component {
                 this.props,
                 "pageContext.site.siteMetadata.footer.social_links"
             );
-            let twitter =
+            twitter =
                 "@" +
                 social_links
                     .find((element) => element.label === "Twitter")

@@ -53,7 +53,7 @@ export default class Header extends React.Component {
                           {_.map(_.get(this.props, 'pageContext.site.siteMetadata.header.social_links', null), (action, action_idx) => (
                           action && (
                           <Link key={action_idx} to={withPrefix(_.get(action, 'url', null))}
-                            {...(_.get(action, 'new_window', null) ? ({target: '_blank'}) : null)}
+                            {...(_.get(action, 'new_window', null) ? ({target: '_blank', rel: "noreferrer"}) : null)}
                             {...((_.get(action, 'new_window', null) || _.get(action, 'no_follow', null)) ? ({rel: (_.get(action, 'new_window', null) ? ('noopener ') : '') + (_.get(action, 'no_follow', null) ? ('nofollow') : '')}) : null)}
                             className={classNames({'button button-icon': _.get(action, 'style', null) === 'icon'})}>
                             {((_.get(action, 'style', null) === 'icon') && _.get(action, 'icon_class', null)) ? (<React.Fragment>
@@ -70,6 +70,7 @@ export default class Header extends React.Component {
                         <a
                             href="https://www.buymeacoffee.com/remelehane"
                             target="_blank"
+                            rel="noreferrer"
                         >
                             <img
                                 src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png"
