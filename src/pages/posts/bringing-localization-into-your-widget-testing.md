@@ -1,23 +1,16 @@
 ---
-stackbit_url_path: posts/bringing-localization-into-your-widget-testing-71f
+stackbit_url_path: posts/bringing-localization-into-your-widget-testing
 title: Bringing localization into your Widget testing
 date: '2020-07-20T07:16:01.000Z'
 excerpt: >-
-  The more accurate you make your test, the higher the quality of the test
-  itself.  Many apps these d...
-thumb_img_path: null
-comments_count: 1
-positive_reactions_count: 6
+  The more accurate you make your test, the higher the quality of the test itself.
 tags:
   - widgettesting
   - unittesting
   - flutter
   - mockito
-canonical_url: >-
-  https://medium.com/wyzetalk-tech/bringing-localization-into-your-widget-testing-121ef7eec7c
 template: post
 ---
-
 
 ![](https://cdn-images-1.medium.com/max/1024/1*KcSljL8cBi93F7WyFYOYQg.jpeg)
 

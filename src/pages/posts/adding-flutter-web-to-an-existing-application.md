@@ -1,22 +1,16 @@
 ---
-stackbit_url_path: posts/adding-flutter-web-to-an-existing-application-4da9
+stackbit_url_path: posts/adding-flutter-web-to-an-existing-application
 title: Adding Flutter web to an existing application
 date: '2020-08-03T07:16:00.000Z'
 excerpt: >-
   As it stands now flutter web is not ready for production use, to get started however they have prov...
-thumb_img_path: null
-comments_count: 2
-positive_reactions_count: 6
 tags:
   - flutter
   - flutterweb
   - fluttermobile
   - flutterdevelopment
-canonical_url: >-
-  https://medium.com/wyzetalk-tech/adding-flutter-web-to-an-existing-application-926730158c8b
 template: post
 ---
-
 
 ![](https://cdn-images-1.medium.com/max/1024/1*1orxIbVfgZa4mB_qEL17Yg.jpeg)
 
