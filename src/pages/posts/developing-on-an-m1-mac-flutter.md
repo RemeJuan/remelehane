@@ -1,7 +1,7 @@
 ---
 stackbit_url_path: posts/developing-on-an-m1-mac-flutter
 title: 'Developing on an M1 Mac (Flutter)'
-date: '2021-06-20T07:02:30.000Z'
+date: '2021-06-07T07:02:30.000Z'
 excerpt: >-
   I recently started working with Flutter during an RnD phase at work after Ionic which had been the planned direction revealed itself to be a non-viable option given the businesses requirement.
 tags:
