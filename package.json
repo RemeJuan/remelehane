@@ -7,7 +7,8 @@
     "develop": "gatsby develop",
     "start": "npm run develop",
     "build": "gatsby build --prefix-paths",
-    "serve": "gatsby serve"
+    "serve": "gatsby serve",
+    "publish": "curl -X POST -d {} https://api.netlify.com/build_hooks/60e02668b8c879326baad0b4"
   },
   "dependencies": {
     "@stackbit/gatsby-plugin-menus": "0.0.4",
