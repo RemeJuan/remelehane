@@ -1,25 +1,20 @@
 ---
-stackbit_url_path: posts/widget-testing-passed-in-function-kpi
+stackbit_url_path: posts/widget-testing-passed-in-function
 title: Widget testing passed in function
 date: '2020-07-10T10:31:23.000Z'
 excerpt: >-
   In this post, we going to go through how, at least in my opinion, one would go
   about testing that a...
-thumb_img_path: null
-comments_count: 0
-positive_reactions_count: 6
 tags:
   - mockito
   - widgettesting
   - flutter
   - unittesting
-canonical_url: >-
-  https://medium.com/wyzetalk-tech/widget-testing-passed-in-function-169c2633180b
 template: post
 ---
 
 
-![](https://cdn-images-1.medium.com/max/534/1*4ezoav544ciIcSAa67ci1w.png)
+![](https://cdn.jsdelivr.net/gh/RemeJuan/remelehane@master/uPic/1*4ezoav544ciIcSAa67ci1w.png)
 
 In this post, we going to go through how, at least in my opinion, one would go about testing that a function is called within a widget when that function is one of the Widgets arguments.
 
@@ -72,17 +67,11 @@ This class will then hold simply “mock” functions that we can pass into reus
 
 * * *
 
-*[This post is also available on DEV.](https://dev.to/remejuan/widget-testing-passed-in-function-kpi)*
+I hope you found this interesting, and if you have any questions, comments, or improvements, feel free to drop a comment. Enjoy your Flutter development journey :D
 
+If you enjoyed it, a like would be awesome, and if you really liked it, a [cup of coffee](https://www.buymeacoffee.com/remelehane) would be great.
 
-<script>
-const parent = document.getElementsByTagName('head')[0];
-const script = document.createElement('script');
-script.type = 'text/javascript';
-script.src = 'https://cdnjs.cloudflare.com/ajax/libs/iframe-resizer/4.1.1/iframeResizer.min.js';
-script.charset = 'utf-8';
-script.onload = function() {
-    window.iFrameResize({}, '.liquidTag');
-};
-parent.appendChild(script);
-</script>    
+Thanks for reading.
+
+****
+

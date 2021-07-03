@@ -1,19 +1,15 @@
 ---
-stackbit_url_path: posts/working-from-home-works-for-me-c5j
+stackbit_url_path: posts/working-from-home-works-for-me
 title: Working from home works for me…
 date: '2021-06-01T14:53:42.000Z'
 excerpt: >-
-  My main desk setup…           How it all started…   In the last year and a
+  How it all started…   In the last year and a
   bit, many of us have chang...
-thumb_img_path: null
-comments_count: 0
-positive_reactions_count: 1
 tags:
   - worklifebalance
   - work
   - office
   - setup
-canonical_url: 'https://remelehane.medium.com/working-from-home-it-works-for-me-2904c9edc0a4'
 template: post
 ---
 
@@ -78,22 +74,16 @@ Unless I have a great idea, something important I want to do or learn, I avoid e
 
 If you are working from home, make the most of it, make it your own space, something that you feel comfortable and productive in, maybe toss in a Happy Sack for those long meetings where you won’t be talking and can leave your camera off, just try and not nap…
 
-Anyway, hope you all enjoyed the read and have a great day/week further. Happy Coding.
+****
 
-- [React to Flutter: One Developers Journey — Part 1](https://dev.to/remejuan/react-to-flutter-one-developers-journey-part-1-5eli)
-- [React to Flutter: One Developers Journey — Part 2](https://dev.to/remejuan/react-to-flutter-one-developers-journey-part-2-4m1d)
+I hope you found this interesting, and if you have any questions, comments, or improvements, feel free to drop a comment. Enjoy your Flutter development journey :D
 
-*[This post is also available on DEV.](https://dev.to/remejuan/working-from-home-works-for-me-c5j)*
+If you enjoyed it, a like would be awesome, and if you really liked it, a [cup of coffee](https://www.buymeacoffee.com/remelehane) would be great.
 
+Thanks for reading.
 
-<script>
-const parent = document.getElementsByTagName('head')[0];
-const script = document.createElement('script');
-script.type = 'text/javascript';
-script.src = 'https://cdnjs.cloudflare.com/ajax/libs/iframe-resizer/4.1.1/iframeResizer.min.js';
-script.charset = 'utf-8';
-script.onload = function() {
-    window.iFrameResize({}, '.liquidTag');
-};
-parent.appendChild(script);
-</script>    
+****
+
+- [React to Flutter: One Developers Journey — Part 1](https://remelehane.dev/posts/react-to-flutter-one-developers-journey-part-1/)
+- [Developing on an M1 Mac (Flutter)](https://remelehane.dev/posts/developing-on-an-m1-mac-flutter/)
+

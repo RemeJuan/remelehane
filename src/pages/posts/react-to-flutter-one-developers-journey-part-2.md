@@ -1,30 +1,25 @@
 ---
-stackbit_url_path: posts/react-to-flutter-one-developers-journey-part-2-4m1d
+stackbit_url_path: posts/react-to-flutter-one-developers-journey-part-2
 title: 'React to Flutter: One Developers Journey — Part 2'
 date: '2021-05-03T07:33:09.000Z'
 excerpt: >-
-  React to Flutter: One Developers Journey — Part 2     If you haven’t yet,
-  check out part 1:...
-thumb_img_path: null
-comments_count: 0
-positive_reactions_count: 1
+  Almost 2 years ago while working at Wyzetalk, we decided to build a [Flutter](https://flutter.dev) application, this was the beginning of my journey to a whole new world.
 tags:
   - flutterwidget
   - flutteranimation
   - flutter
   - flutterappdevelopmen
-canonical_url: 'https://itnext.io/react-to-flutter-one-developers-journey-part-2-10ac6919f580'
 template: post
 ---
 
 
 ### React to Flutter: One Developers Journey — Part 2
 
-![](https://cdn-images-1.medium.com/max/1024/1*68CvCy_f3PM9C7fQB1cWLg.jpeg)
+![](https://cdn.jsdelivr.net/gh/RemeJuan/remelehane@master/uPic/1*68CvCy_f3PM9C7fQB1cWLg.jpeg)
 
 If you haven’t yet, check out part 1:
 
-[React to Flutter: One Developers Journey — Part 1](https://dev.to/remejuan/react-to-flutter-one-developers-journey-part-1-5eli)
+[React to Flutter: One Developers Journey — Part 1](https://remelehane.dev/posts/react-to-flutter-one-developers-journey-part-1/)
 
 When we started the project, the most obvious thing to us was that we did not know, what we did not know, Flutter was extremely new to use, so our “spec” to the UX team, was to design the new version of our app as if we had no limitations because we literally had no idea what they were.
 
@@ -40,7 +35,7 @@ We had gotten what can be considered a not so basic animation sequence from the 
 
 The requirement was that when a user resets their password, we would start the flow by first fading in a “loading spinner”, which upon a successful API response, switched from a spinner to a checkmark and then expanded into a long “pill” with a success message.
 
-![](https://cdn-images-1.medium.com/max/720/1*yY1Nxv4MeKpHfcvwFPW-jg.gif)
+![](https://cdn.jsdelivr.net/gh/RemeJuan/remelehane@master/uPic/1*yY1Nxv4MeKpHfcvwFPW-jg.gif)
 
 If I were to do that in JS/CSS, it would probably have taken between half and a full day, but that’s the sort of thing I have done a lot in my career, it’s something I would be able to put together without the help of google.
 
@@ -52,26 +47,15 @@ I think to both us the developers and the UX team, this gave us the impression t
 
 It is probably almost 2 years later and that was most definitely not the most complex idea we got from the UX team and to date, we are yet to run into anything we have been unable to implement.
 
+****
+
 I hope you found this interesting, and if you have any questions, comments, or improvements, feel free to drop a comment. Enjoy your Flutter development journey :D
+
+If you enjoyed it, a like would be awesome, and if you really liked it, a [cup of coffee](https://www.buymeacoffee.com/remelehane) would be great.
 
 Thanks for reading.
 
-- [Bringing localization into your Widget testing](https://dev.to/remejuan/bringing-localization-into-your-widget-testing-71f)
-- [Unit Testing your http.MultipartRequest network method](https://dev.to/remejuan/unit-testing-your-http-multipartrequest-network-method-9h4)
+****
 
-* * *
-
-*[This post is also available on DEV.](https://dev.to/remejuan/react-to-flutter-one-developers-journey-part-2-4m1d)*
-
-
-<script>
-const parent = document.getElementsByTagName('head')[0];
-const script = document.createElement('script');
-script.type = 'text/javascript';
-script.src = 'https://cdnjs.cloudflare.com/ajax/libs/iframe-resizer/4.1.1/iframeResizer.min.js';
-script.charset = 'utf-8';
-script.onload = function() {
-    window.iFrameResize({}, '.liquidTag');
-};
-parent.appendChild(script);
-</script>    
+- [Bringing localization into your Widget testing](https://remelehane.dev/posts/bringing-localization-into-your-widget-testing/)
+- [Unit Testing your http.MultipartRequest network method](https://remelehane.dev/posts/unit-testing-your-http-multipartrequest-network-method/)

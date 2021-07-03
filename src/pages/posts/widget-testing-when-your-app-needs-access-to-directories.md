@@ -1,24 +1,19 @@
 ---
-stackbit_url_path: posts/widget-testing-when-your-app-needs-access-to-directories-ljd
+stackbit_url_path: posts/widget-testing-when-your-app-needs-access-to-directories
 title: Widget testing when your app needs access to directories.
 date: '2020-07-27T07:16:01.000Z'
 excerpt: >-
   Many times in an application you would have a need to store files, temporarily
   or even permanently....
-thumb_img_path: null
-comments_count: 0
-positive_reactions_count: 1
 tags:
   - widgettesting
   - flutter
   - unittesting
-canonical_url: >-
-  https://medium.com/wyzetalk-tech/widget-testing-when-your-app-needs-access-to-directories-2c9c7aa73b8a
 template: post
 ---
 
 
-![](https://cdn-images-1.medium.com/max/1024/1*bnm8sRPmozmm0_tgnN97WQ.png)
+![](https://cdn.jsdelivr.net/gh/RemeJuan/remelehane@master/uPic/1*bnm8sRPmozmm0_tgnN97WQ.png)
 
 Many times in an application you would have a need to store files, temporarily or even permanently. For this, you are probably going to be using [path\_provider](https://pub.dev/packages/path_provider), however, those methods are not going to simply work when running a widget test.
 
@@ -70,17 +65,11 @@ If you are needing access to files, ensure they exist in the path you have provi
 
 * * *
 
-*[This post is also available on DEV.](https://dev.to/remejuan/widget-testing-when-your-app-needs-access-to-directories-ljd)*
+I hope you found this interesting, and if you have any questions, comments, or improvements, feel free to drop a comment. Enjoy your Flutter development journey :D
 
+If you enjoyed it, a like would be awesome, and if you really liked it, a [cup of coffee](https://www.buymeacoffee.com/remelehane) would be great.
 
-<script>
-const parent = document.getElementsByTagName('head')[0];
-const script = document.createElement('script');
-script.type = 'text/javascript';
-script.src = 'https://cdnjs.cloudflare.com/ajax/libs/iframe-resizer/4.1.1/iframeResizer.min.js';
-script.charset = 'utf-8';
-script.onload = function() {
-    window.iFrameResize({}, '.liquidTag');
-};
-parent.appendChild(script);
-</script>    
+Thanks for reading.
+
+****
+

@@ -1,24 +1,20 @@
 ---
-stackbit_url_path: posts/why-we-chose-flutter-2jh0
+stackbit_url_path: posts/why-we-chose-flutter
 title: Why we chose Flutter
 date: '2020-08-24T07:16:01.000Z'
 excerpt: >-
   Some would wonder why a company whos development team speaks almost
   exclusively Javascript would ch...
-thumb_img_path: null
-comments_count: 1
-positive_reactions_count: 6
 tags:
   - flutterappdevelopmen
   - mobileappdevelopment
   - hybridappdevelopment
   - flutter
-canonical_url: 'https://medium.com/wyzetalk-tech/why-we-chose-flutter-fdb98fcbea8'
 template: post
 ---
 
 
-![](https://cdn-images-1.medium.com/max/1024/1*yM3feYmhF04LRjVoWFyWaQ.jpeg)
+![](https://cdn.jsdelivr.net/gh/RemeJuan/remelehane@master/uPic/1*yM3feYmhF04LRjVoWFyWaQ.jpeg)
 
 Some would wonder why a company whos development team speaks almost exclusively Javascript would choose flutter to build their next product.
 
@@ -62,7 +58,7 @@ What I found most impressive was, that being soo young and soo much younger than
 
 Unfortunately, we are still waiting for web, and I am personally quite eager to see what it will look like, personally I am quite eager and in that regard, we are preparing the application to at least work in the beta channel so that we can get a head start on it.
 
-[Adding Flutter web to an existing application](https://dev.to/remejuan/adding-flutter-web-to-an-existing-application-4da9)
+[Adding Flutter web to an existing application](https://remelehane.dev/posts/adding-flutter-web-to-an-existing-application/)
 
 ### Conclusion
 
@@ -72,31 +68,15 @@ I personally cannot wait to see what is next and am so glad I had the opportunit
 
 Don’t get me wrong, coming from Javascript it was a very big learning curve, which helped me a lot, in the beginning, was [https://fluttercrashcourse.com/](https://fluttercrashcourse.com/), and along the way, the tutorial by Reso Coder ([YouTube](https://www.youtube.com/channel/UCSIvrn68cUk8CS8MbtBmBkA) | [Website](https://resocoder.com/)) was absolutely invaluable.
 
-I hope you found this interesting, and if you have any questions, comments, or improvements, feel free to drop me a comment.
+****
+
+I hope you found this interesting, and if you have any questions, comments, or improvements, feel free to drop a comment. Enjoy your Flutter development journey :D
+
+If you enjoyed it, a like would be awesome, and if you really liked it, a [cup of coffee](https://www.buymeacoffee.com/remelehane) would be great.
 
 Thanks for reading.
 
-- [Dependency Injection and Testing](https://dev.to/remejuan/dependency-injection-and-testing-36jf)
-- [Unit Testing your http.MultipartRequest network method](https://medium.com/wyzetalk-tech/unit-testing-your-http-multipartrequest-network-method-fa88df725950)
+****
 
-> **About Wyzetalk**  
-> _Founded in South Africa and headquartered in The Netherlands, Wyzetalk is a leading global employee experience company that offers a mobile-first digital solution connecting large organisations with their dispersed, frontline workforce to improve communication, unleash innovation, and boost business performance. Since launching in 2012, the company has grown in revenue by more than 100% per annum. With a presence in 18 countries across five continents, today there are 650 000 employees making use of the Wyzetalk platform through clients in the Mining, Retail, FMCG, Manufacturing, Energy, Automotive and Shipping sectors._
-
-> _Website:_ [_https://www.wyzetalk.com/_](https://www.wyzetalk.com/)
-
-* * *
-
-*[This post is also available on DEV.](https://dev.to/remejuan/why-we-chose-flutter-2jh0)*
-
-
-<script>
-const parent = document.getElementsByTagName('head')[0];
-const script = document.createElement('script');
-script.type = 'text/javascript';
-script.src = 'https://cdnjs.cloudflare.com/ajax/libs/iframe-resizer/4.1.1/iframeResizer.min.js';
-script.charset = 'utf-8';
-script.onload = function() {
-    window.iFrameResize({}, '.liquidTag');
-};
-parent.appendChild(script);
-</script>    
+- [Dependency Injection and Testing](https://remelehane.dev/posts/dependency-injection-and-testing/)
+- [Unit Testing your http.MultipartRequest network method](https://remelehane.dev/posts/unit-testing-your-http-multipartrequest-network-method/)

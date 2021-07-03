@@ -12,7 +12,7 @@ tags:
 template: post
 ---
 
-![](https://cdn-images-1.medium.com/max/1024/1*KcSljL8cBi93F7WyFYOYQg.jpeg)
+![](https://cdn.jsdelivr.net/gh/RemeJuan/remelehane@master/uPic/1*KcSljL8cBi93F7WyFYOYQg.jpeg)
 
 The more accurate you make your test, the higher the quality of the test itself.
 
@@ -91,21 +91,14 @@ More importantly, if you have a language switcher that a user can select you can
 
 I hope you found this useful if you want to learn more about flutter testing why not take a look at some of the other posts we have written…
 
-[Widget testing passed in function](https://dev.to/remejuan/widget-testing-passed-in-function-kpi)
+***
 
-* * *
+I hope you found this interesting, and if you have any questions, comments, or improvements, feel free to drop a comment. Enjoy your Flutter development journey :D
 
-*[This post is also available on DEV.](https://dev.to/remejuan/bringing-localization-into-your-widget-testing-71f)*
+If you liked it, a like would be awesome, and if you really liked it, a [cup of coffee](https://www.buymeacoffee.com/remelehane) would be great.
 
+Thanks for reading.
 
-<script>
-const parent = document.getElementsByTagName('head')[0];
-const script = document.createElement('script');
-script.type = 'text/javascript';
-script.src = 'https://cdnjs.cloudflare.com/ajax/libs/iframe-resizer/4.1.1/iframeResizer.min.js';
-script.charset = 'utf-8';
-script.onload = function() {
-    window.iFrameResize({}, '.liquidTag');
-};
-parent.appendChild(script);
-</script>    
+****
+
+[Widget testing passed in function](https://remelehane.dev/posts/widget-testing-passed-in-function-kpi/)

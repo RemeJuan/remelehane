@@ -1,24 +1,19 @@
 ---
-stackbit_url_path: posts/unit-testing-a-utility-function-that-returns-a-widget-4cbj
+stackbit_url_path: posts/unit-testing-a-utility-function-that-returns-a-widget
 title: Unit Testing a Utility function that returns a Widget
 date: '2021-03-31T11:22:38.000Z'
 excerpt: >-
   Probably not too common a use case, but for me I have a utility function for
   handling in-app naviga...
-thumb_img_path: null
-comments_count: 0
-positive_reactions_count: 0
 tags:
   - flutter
   - unittesting
   - flutterappdevelopmen
-canonical_url: >-
-  https://medium.com/wyzetalk-tech/unit-testing-a-utility-function-that-returns-a-widget-77b1b3fec888
 template: post
 ---
 
 
-![](https://cdn-images-1.medium.com/max/1024/1*dqggYKcf6EZ3T2E9dRAL8A.jpeg)
+![](https://cdn.jsdelivr.net/gh/RemeJuan/remelehane@master/uPic/1*dqggYKcf6EZ3T2E9dRAL8A.jpeg)
 
 Probably not too common a use case, but for me I have a utility function for handling in-app navigation from the in-app web view webview\_flutter while it does have a generic error handler, I need to be handle errors differently based on what type of URL was selected as custom logic is required to be able to handle links that are not actually valid.
 
@@ -48,31 +43,17 @@ As mentioned above, not a very common usecase, and when possible one should alwa
 
 I felt however the learning itself was still valuable, and the possibility does exist that this is an unavoidable scenario for someone, or even myself at a later stage. # SharingIsCaring
 
-Hope you all enjoyed the read.
+****
+
+I hope you found this interesting, and if you have any questions, comments, or improvements, feel free to drop a comment. Enjoy your Flutter development journey :D
+
+If you enjoyed it, a like would be awesome, and if you really liked it, a [cup of coffee](https://www.buymeacoffee.com/remelehane) would be great.
+
+Thanks for reading.
+
+****
 
 If you wish to carry on with the subject of testing, why not take a look at:
 
-- [Widget testing passed in function](https://dev.to/remejuan/widget-testing-passed-in-function-kpi)
-- [Widget testing when your app needs access to directories.](https://dev.to/remejuan/widget-testing-when-your-app-needs-access-to-directories-ljd)
-
-**_About Wyzetalk_**  
-_Founded in South Africa and headquartered in The Netherlands, Wyzetalk is a leading global employee experience company that offers a mobile-first digital solution connecting large organisations with their dispersed, frontline workforce to improve communication, unleash innovation, and boost business performance. Since launching in 2012, the company has grown in revenue by more than 100% per annum. With a presence in 18 countries across five continents, today there are 650 000 employees making use of the Wyzetalk platform through clients in the Mining, Retail, FMCG, Manufacturing, Energy, Automotive and Shipping sectors._
-
-_Website:_ [_https://www.wyzetalk.com/_](https://www.wyzetalk.com/)
-
-* * *
-
-*[This post is also available on DEV.](https://dev.to/remejuan/unit-testing-a-utility-function-that-returns-a-widget-4cbj)*
-
-
-<script>
-const parent = document.getElementsByTagName('head')[0];
-const script = document.createElement('script');
-script.type = 'text/javascript';
-script.src = 'https://cdnjs.cloudflare.com/ajax/libs/iframe-resizer/4.1.1/iframeResizer.min.js';
-script.charset = 'utf-8';
-script.onload = function() {
-    window.iFrameResize({}, '.liquidTag');
-};
-parent.appendChild(script);
-</script>    
+- [Widget testing passed in function](https://remelehane.dev/posts/widget-testing-passed-in-function/)
+- [Widget testing when your app needs access to directories.](https://remelehane.dev/posts/widget-testing-when-your-app-needs-access-to-directories/)

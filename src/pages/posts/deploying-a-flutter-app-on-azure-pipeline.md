@@ -1,25 +1,19 @@
 ---
-stackbit_url_path: posts/deploying-a-flutter-app-on-azure-pipeline-43bo
+stackbit_url_path: posts/deploying-a-flutter-app-on-azure-pipeline
 title: Deploying a Flutter App on Azure Pipeline
 date: '2020-05-01T02:27:00.000Z'
 excerpt: >-
-  Background:   Recently I decided it was time to remove the build process from
-  my own machi...
-thumb_img_path: null
-comments_count: 0
-positive_reactions_count: 10
+  Recently I decided it was time to remove the build process from my own machine, I had looked at codemagic.io, but cost wise it would not have been feasible when we already had a full azure setup for the rest of our products.
 tags:
   - flutter
   - android
   - fastlane
   - ios
-canonical_url: >-
-  https://medium.com/@reme.lehane/deploying-a-flutter-app-on-azure-pipeline-266aabdf5176
 template: post
 ---
 
 
-![](https://cdn-images-1.medium.com/max/1024/1*8vESVWZfAnEeICajgWOODA.jpeg)
+![Flutter Banner Image](https://cdn.jsdelivr.net/gh/RemeJuan/remelehane@master/uPic/1*8vESVWZfAnEeICajgWOODA.jpeg)
 
 ### Background:
 
@@ -127,17 +121,10 @@ If you are however using aab you can simply build that with the available tools.
 
 I hope if you have made it this far you found it useful, the android steps are pretty strait forward, using [fastlane](https://fastlane.tools/) there is more of a “me” requirement other than something I think will generally be used, it is advisable to use the aab rather, but managing multiple apps for multiple clients I feel may be unnecessarily complicate the process especially seeing as we will need to update existing apps.
 
-*[This post is also available on DEV.](https://dev.to/remejuan/deploying-a-flutter-app-on-azure-pipeline-43bo)*
+****
 
+I hope you found this interesting, and if you have any questions, comments, or improvements, feel free to drop a comment. Enjoy your Flutter development journey :D
 
-<script>
-const parent = document.getElementsByTagName('head')[0];
-const script = document.createElement('script');
-script.type = 'text/javascript';
-script.src = 'https://cdnjs.cloudflare.com/ajax/libs/iframe-resizer/4.1.1/iframeResizer.min.js';
-script.charset = 'utf-8';
-script.onload = function() {
-    window.iFrameResize({}, '.liquidTag');
-};
-parent.appendChild(script);
-</script>    
+If you liked it, a like would be awesome, and if you really liked it, a [cup of coffee](https://www.buymeacoffee.com/remelehane) would be great.
+
+Thanks for reading.

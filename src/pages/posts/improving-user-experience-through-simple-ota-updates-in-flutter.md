@@ -1,25 +1,20 @@
 ---
-stackbit_url_path: posts/improving-user-experience-through-simple-ota-updates-in-flutter-3o6b
+stackbit_url_path: posts/improving-user-experience-through-simple-ota-updates-in-flutter
 title: Improving User Experience through simple OTA updates in Flutter
 date: '2020-05-18T07:31:01.000Z'
 excerpt: >-
   Background  When I started building out the new mobile app for Wyztalk there
   where a few things on...
-thumb_img_path: null
-comments_count: 0
-positive_reactions_count: 8
 tags:
   - localization
   - flutter
   - flutterappdevelopment
   - flutterui
-canonical_url: >-
-  https://medium.com/@reme.lehane/improving-user-experience-through-simple-ota-updates-in-flutter-ba7169e3a59b
 template: post
 ---
 
 
-![Wyzetalk Flutter](https://cdn-images-1.medium.com/max/1024/1*BGGjw3RFKH5yLy75441v2g.jpeg)
+![Wyzetalk Flutter](https://cdn.jsdelivr.net/gh/RemeJuan/remelehane@master/uPic/1*BGGjw3RFKH5yLy75441v2g.jpeg)
 
 **Background**
 
@@ -113,26 +108,15 @@ The locale function follows the same idea but includes the loop as shown in the 
 
 While not a massive saving in the grand scheme of things, this does remove the need to host such sparsely updated resources or update a 10mb app for ~7kb of styles or locale.
 
-**Conclusion**
+****
 
-I hope you have found some use out of this, in the end, we all need to strive to give our users the best experience we possibly can and saving bandwidth helps with that, also limiting unnecessary updates is definitely a win.
+I hope you found this interesting, and if you have any questions, comments, or improvements, feel free to drop a comment. Enjoy your Flutter development journey :D
 
-Thanks for reading and drop me a comment if you have any questions, suggestions or improvements, we are all always learning. Don’t forget the clap, and share if you think someone else may benefit from it.
+If you enjoyed it, a like would be awesome, and if you really liked it, a [cup of coffee](https://www.buymeacoffee.com/remelehane) would be great.
 
-- [Deploying a Flutter App on Azure Pipeline](https://dev.to/remejuan/deploying-a-flutter-app-on-azure-pipeline-43bo)
-- [Flutter: Using Self Signed SSL Certificates in Development](https://dev.to/remejuan/flutter-using-self-signed-ssl-certificates-in-development-20ce)
+Thanks for reading.
 
-*[This post is also available on DEV.](https://dev.to/remejuan/improving-user-experience-through-simple-ota-updates-in-flutter-3o6b)*
+****
 
-
-<script>
-const parent = document.getElementsByTagName('head')[0];
-const script = document.createElement('script');
-script.type = 'text/javascript';
-script.src = 'https://cdnjs.cloudflare.com/ajax/libs/iframe-resizer/4.1.1/iframeResizer.min.js';
-script.charset = 'utf-8';
-script.onload = function() {
-    window.iFrameResize({}, '.liquidTag');
-};
-parent.appendChild(script);
-</script>    
+- [Deploying a Flutter App on Azure Pipeline](https://remelehane.dev/posts/deploying-a-flutter-app-on-azure-pipeline/)
+- [Flutter: Using Self Signed SSL Certificates in Development](https://remelehane.dev/posts/flutter-using-self-signed-ssl-certificates-in-development/)

@@ -1,25 +1,19 @@
 ---
-stackbit_url_path: posts/flutter-using-self-signed-ssl-certificates-in-development-20ce
+stackbit_url_path: posts/flutter-using-self-signed-ssl-certificates-in-development
 title: 'Flutter: Using Self Signed SSL Certificates in Development'
 date: '2019-07-06T17:43:20.000Z'
 excerpt: >-
-  I recently started working with Flutter during an RnD phase at work after
-  Ionic which had been the...
-thumb_img_path: null
-comments_count: 1
-positive_reactions_count: 33
+  I recently started working with Flutter during an RnD phase at work after Ionic which had been the planned direction revealed itself to be a non-viable option given the businesses requirement.
 tags:
   - flutterdevelopment
   - development
   - sslcertificate
   - flutter
-canonical_url: >-
-  https://medium.com/@reme.lehane/flutter-using-self-signed-ssl-certificates-in-development-c3fe2d104acf
 template: post
 ---
 
 
-![](https://cdn-images-1.medium.com/max/1024/1*73IgUxPfyXUKZAaIXgutrw.png)
+![Banner Image](https://cdn.jsdelivr.net/gh/RemeJuan/remelehane@master/uPic/1*73IgUxPfyXUKZAaIXgutrw.png)
 
 I recently started working with Flutter during an RnD phase at work after Ionic which had been the planned direction revealed itself to be a non-viable option given the businesses requirement. Personally, probably professionally and potentially even for the business, that was a blessing in disguise.
 
@@ -64,17 +58,13 @@ I have not fully tested the cookie side of this Class yet, I will update the Gis
 
 Thanks for reading, I hope you have found this useful/informative. Drop me a comment if you have any questions or suggestions/improvements, we are all always learning. Don’t forget the clap, and share if you think someone else may benefit from it.
 
-*[This post is also available on DEV.](https://dev.to/remejuan/flutter-using-self-signed-ssl-certificates-in-development-20ce)*
+****
 
+I hope you found this interesting, and if you have any questions, comments, or improvements, feel free to drop a comment. Enjoy your Flutter development journey :D
 
-<script>
-const parent = document.getElementsByTagName('head')[0];
-const script = document.createElement('script');
-script.type = 'text/javascript';
-script.src = 'https://cdnjs.cloudflare.com/ajax/libs/iframe-resizer/4.1.1/iframeResizer.min.js';
-script.charset = 'utf-8';
-script.onload = function() {
-    window.iFrameResize({}, '.liquidTag');
-};
-parent.appendChild(script);
-</script>    
+If you enjoyed it, a like would be awesome, and if you really liked it, a [cup of coffee](https://www.buymeacoffee.com/remelehane) would be great.
+
+Thanks for reading.
+
+****
+

@@ -1,25 +1,20 @@
 ---
-stackbit_url_path: posts/unit-testing-your-http-multipartrequest-network-method-9h4
+stackbit_url_path: posts/unit-testing-your-http-multipartrequest-network-method
 title: Unit Testing your http.MultipartRequest network method
 date: '2020-08-10T07:16:01.000Z'
 excerpt: >-
   Recently I had to implement image uploading which required form data that
   cannot be done with the s...
-thumb_img_path: null
-comments_count: 0
-positive_reactions_count: 7
 tags:
   - fileupload
   - unittesting
   - flutterdevelopment
   - flutter
-canonical_url: >-
-  https://medium.com/@reme.lehane/unit-testing-your-http-multipartrequest-network-method-fa88df725950
 template: post
 ---
 
 
-![](https://cdn-images-1.medium.com/max/1024/1*IHvlDw_HqNSpLJfsKbOr0Q.jpeg)
+![](https://cdn.jsdelivr.net/gh/RemeJuan/remelehane@master/uPic/1*IHvlDw_HqNSpLJfsKbOr0Q.jpeg)
 
 Recently I had to implement image uploading which required form data that cannot be done with the standard http.Clientand instead needs http.MultipartRequest.
 
@@ -144,31 +139,17 @@ Here is a snippet from the test for the above function, I am passing in a mockFi
 
 This setup allows us to verify that when the function is called, the network request should get made by verifying that the mockMultipartRequest.send() is in fact called.
 
-I hope that you have found this post interesting or useful if you spot any mistakes or have any suggestions feel free to let me know.
+****
+
+I hope you found this interesting, and if you have any questions, comments, or improvements, feel free to drop a comment. Enjoy your Flutter development journey :D
+
+If you enjoyed it, a like would be awesome, and if you really liked it, a [cup of coffee](https://www.buymeacoffee.com/remelehane) would be great.
+
+Thanks for reading.
+
+****
 
 Wish to carry on with the topic of Unit Testing, take a look at:
 
-- [Bringing localization into your Widget testing](https://dev.to/remejuan/bringing-localization-into-your-widget-testing-71f)
-- [Widget testing passed in function](https://dev.to/remejuan/widget-testing-passed-in-function-kpi)
-
-Also, follow our publication for upcoming updates on testing and other flutter things we figure out.
-
-> **_About Wyzetalk_**  
-> Founded in South Africa and headquartered in The Netherlands, Wyzetalk is a leading global employee experience company that offers a mobile-first digital solution connecting large organisations with their dispersed, frontline workforce to improve communication, unleash innovation, and boost business performance. Since launching in 2012, the company has grown in revenue by more than 100% per annum. With a presence in 18 countries across five continents, today there are 650 000 employees making use of the Wyzetalk platform through clients in the Mining, Retail, FMCG, Manufacturing, Energy, Automotive and Shipping sectors.
-
-> Website: [https://www.wyzetalk.com/](https://www.wyzetalk.com/)
-
-*[This post is also available on DEV.](https://dev.to/remejuan/unit-testing-your-http-multipartrequest-network-method-9h4)*
-
-
-<script>
-const parent = document.getElementsByTagName('head')[0];
-const script = document.createElement('script');
-script.type = 'text/javascript';
-script.src = 'https://cdnjs.cloudflare.com/ajax/libs/iframe-resizer/4.1.1/iframeResizer.min.js';
-script.charset = 'utf-8';
-script.onload = function() {
-    window.iFrameResize({}, '.liquidTag');
-};
-parent.appendChild(script);
-</script>    
+- [Bringing localization into your Widget testing](https://remelehane.dev/posts/bringing-localization-into-your-widget-testing/)
+- [Widget testing passed in function](https://remelehane.dev/posts/widget-testing-passed-in-function-/)
