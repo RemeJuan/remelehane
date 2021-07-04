@@ -13,9 +13,6 @@ template: post
 thumb_img_path: https://cdn.jsdelivr.net/gh/RemeJuan/remelehane@master/uPic/1*DTmKsPfjSR-mjw7sqeVwyQ-20210703101645334.jpeg
 ---
 
-
-## Flutter Web: Should I use it? (Part 1 — SEO)
-
 ![Header Image - Flutter Web: Should I use it? (Part 1 — SEO)](https://cdn.jsdelivr.net/gh/RemeJuan/remelehane@master/uPic/1*DTmKsPfjSR-mjw7sqeVwyQ-20210703101645334.jpeg)
 
 Many times online the question has been asked “Is flutter good for web”, and what many developers fail to truly understand is that is a very broad and open question and there are many factors that go into saying yes, no or maybe.

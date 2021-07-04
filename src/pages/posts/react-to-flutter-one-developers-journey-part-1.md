@@ -13,9 +13,6 @@ template: post
 thumb_img_path: https://cdn.jsdelivr.net/gh/RemeJuan/remelehane@master/uPic/1*zYJA3LEI08WOn6E8aJ44uw.jpeg
 ---
 
-
-### React to Flutter: One Developers Journey — Part 1
-
 ![React to Flutter: One Developers Journey Banner](https://cdn.jsdelivr.net/gh/RemeJuan/remelehane@master/uPic/1*zYJA3LEI08WOn6E8aJ44uw.jpeg)
 
 Almost 2 years ago while working at Wyzetalk, we decided to build a [Flutter](https://flutter.dev) application, this was the beginning of my journey to a whole new world.

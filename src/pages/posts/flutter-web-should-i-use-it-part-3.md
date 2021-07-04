@@ -13,8 +13,6 @@ template: post
 thumb_img_path: https://cdn.jsdelivr.net/gh/RemeJuan/remelehane@master/uPic/1*DTmKsPfjSR-mjw7sqeVwyQ-20210703101645334.jpeg
 ---
 
-
-
 ![Post header image](https://cdn.jsdelivr.net/gh/RemeJuan/remelehane@main/uPic/1*DTmKsPfjSR-mjw7sqeVwyQ-20210703203135334.jpeg)
 
 If you have not yet, it is worth reading the previous part of this series for the best context.
