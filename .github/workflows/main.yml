@@ -16,9 +16,11 @@ jobs:
           persist-credentials: false
           fetch-depth: 0
           
-      - name: Install and Build
-        run: |
-          npm install
-          npm run deploy
-          with:
-            gh_token: "${{ secrets.PAT }}"
+      - name: Install
+        run: npm install
+        
+      - name: Build
+        run: npm run build
+        
+      - name: Deploy
+        run: npm run deploy
