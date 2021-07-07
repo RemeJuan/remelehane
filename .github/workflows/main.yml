@@ -20,3 +20,12 @@ jobs:
         with:
           access-token: ${{ secrets.PAT }}
           deploy-branch: gh-pages
+
+      - uses: actions/checkout@v2
+      - name: Notify telegram
+        uses: up9cloud/action-notify@master
+        if: cancelled() == false
+        env:
+          GITHUB_JOB_STATUS: ${{ job.status }}
+          TELEGRAM_BOT_TOKEN: ${{secrets.TELEGRAM_BOT_TOKEN}}
+          TELEGRAM_CHAT_ID: ${{secrets.TELEGRAM_CHAT_ID}}
