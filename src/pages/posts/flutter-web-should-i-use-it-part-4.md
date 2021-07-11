@@ -1,6 +1,6 @@
 ---
 stackbit_url_path: posts/how-to-download-files-on-web-with-flutter
-title: Flutter Web: Should I use it? (Part 4— I believe so)
+title: "Flutter Web: Should I use it? (Part 4— I believe so)"
 date: '2021-06-01T14:53:42.000Z'
 excerpt: "The final part of the series, let's go through suggestions on what to do when you are planning on using Flutter Web"
 tags:
@@ -16,7 +16,7 @@ thumb_img_path: https://cdn.jsdelivr.net/gh/RemeJuan/remelehane@main/uPic/1*DTmK
 
 This is the final part of the series, if you have not already, here is the previous one for context.
 
-[Flutter Web: Should I use it? (Part 3— Other considerations)](https://dev.to/remejuan/flutter-web-should-i-use-it-part-3-other-considerations-42dh)
+[Flutter Web: Should I use it? (Part 3— Other considerations)](https://blog.remelehane.dev/flutter-web-should-i-use-it-part-3-other-considerations)
 
 In this part, I am going to go through some ideas and suggestions that I think will work best for those of you working on a Flutter Web project.
 
@@ -52,9 +52,9 @@ All your UI specific Widgets, things that will be the same across Web and Mobile
 
 In addition to widgets, the shared layer could also store certain aspects of the business logic and some of the network logic, state especially is quite likely to be sharable across the layers as what you would be showing and when would remain consistent, it's the "how it looks" that we are trying to maintain a bit more control over.
 
-Using platform delegates from within the shared layer could simplify logic sharing as well, if you consider something like file downloading, this works more seamlessly on mobile than on the web, with the web requiring a little bit of creativity to achieve, which would also result in having to use web-specific code which would prevent unit testing.
+Using platform delegates from within the shared layer could simplify logic sharing as well, if you consider something like file downloading, this works more seamlessly on mobile than on web, with the web requiring a little bit of creativity to achieve, which would also result in having to use web-specific code which would prevent unit testing.
 
-I go into some details on how to setup platform delegate here: [Adding Flutter web to an existing application]()
+I go into some details on how to setup platform delegate here: [Adding Flutter web to an existing application](https://dev.to/remejuan/adding-flutter-web-to-an-existing-application-4da9)
 
 This allows you to still maintain an extremely reusable codebase while also having a lot more control over the specific user experience for the targeted platform.
 
