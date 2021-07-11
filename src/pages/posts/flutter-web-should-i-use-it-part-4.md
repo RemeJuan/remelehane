@@ -1,7 +1,7 @@
 ---
 stackbit_url_path: posts/how-to-download-files-on-web-with-flutter
 title: "Flutter Web: Should I use it? (Part 4— I believe so)"
-date: '2021-07-011T09:00:42.000Z'
+date: '2021-07-11T09:00:42.000Z'
 excerpt: "The final part of the series, let's go through suggestions on what to do when you are planning on using Flutter Web"
 tags:
   - flutter
