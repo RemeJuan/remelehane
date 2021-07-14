@@ -61,6 +61,7 @@ We have covered a lot of the things one needs to consider when choosing Flutter 
 
 In the final part of this series I will go through some suggestions and things to consider if you have decided that for you or your team, Flutter is the best way to go.
 
+[Flutter Web: Should I use it? (Part 4 — I believe so)](https://remelehane.dev/posts/flutter-web-should-i-use-it-part-4/)
 ***
 
 I hope you found this interesting, and if you have any questions, comments, or improvements, feel free to drop a comment. Enjoy your Flutter development journey :D
