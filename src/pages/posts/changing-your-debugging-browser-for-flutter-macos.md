@@ -1,7 +1,7 @@
 ---
 stackbit_url_path: posts/changing-your-debugging-browser-for-flutter-macos
 title: Changing your debugging browser for Flutter (MacOS)
-date: '2021-06-01T14:53:42.000Z'
+date: '2021-08-01T09:00:00.000Z'
 excerpt: >-
   A quick walkthrough on how to go about changing your default debugging browser to something other than Chrome on MacOs
 tags:
