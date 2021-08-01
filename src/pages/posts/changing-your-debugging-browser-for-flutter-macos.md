@@ -28,11 +28,11 @@ If you are however using a different flavour of Chromium, then the way I found t
 
 Here you would look for the running instance of the browser in the list, there may be more than one, which is normal these days as many chromium browsers isolate each tab in its own running instance for performance and security.
 
-![](https://cdn-images-1.medium.com/max/3852/1*1YjQBN3lVqxZAnpANRAsRw.png)
+![Activity Monitor Screenshot](https://cdn.jsdelivr.net/gh/RemeJuan/remelehane@main/uPic/1*1YjQBN3lVqxZAnpANRAsRw.png)
 
 You should see something similar to the above, once highlighted you want to click on the “I” icon and from the next window, click on the “Open Files and Ports” tab.
 
-![](https://cdn-images-1.medium.com/max/2240/1*9mzFkahUTpL_Grcn_IE30w.png)
+![Brave processor details screenshot](https://cdn.jsdelivr.net/gh/RemeJuan/remelehane@main/uPic/1*9mzFkahUTpL_Grcn_IE30w.png)
 
 In the above screenshot, the line you are looking for is the 4th one:
 
@@ -54,7 +54,7 @@ To reload the file simply run:
 
 Then to confirm everything was successful, run flutter doctor -v and check the output, it should include something like this and the CHROME_EXECUTABLE path should be the one you set.
 
-![](https://cdn-images-1.medium.com/max/2444/1*mnNBY268LRBJ_J_1Zx4XRg.png)
+![Terminal screenshot showing the updated chrome path in Flutter Doctor](https://cdn.jsdelivr.net/gh/RemeJuan/remelehane@main/uPic/1*mnNBY268LRBJ_J_1Zx4XRg.png)
 
 If like me you use the built-in tooling for your editor, you may need to restart your editor for the new environment variables to be loaded in, otherwise hitting play may continue to use Chrome.
 
@@ -70,7 +70,7 @@ Thank you for reading, hope you found this useful and can now use your preferred
 
 I hope you found this interesting, and if you have any questions, comments, or improvements, feel free to drop a comment. Enjoy your Flutter development journey :D
 
-If you liked it, a heart would be awesome, and if you really liked it, a [cup of coffee](https://www.buymeacoffee.com/remelehane) would be great.
+If you liked it, a like would be awesome, and if you really liked it, a [cup of coffee](https://www.buymeacoffee.com/remelehane) would be great.
 
 Thanks for reading.
 
