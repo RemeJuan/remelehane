@@ -13,8 +13,6 @@ tags:
 template: post
 thumb_img_path: https://cdn.jsdelivr.net/gh/RemeJuan/remelehane@main/uPic/1*vih036gD7fwgfj2jXHgKHA.png
 ---
-## Unit testing DateTime.now() with the help of Dart extensions
-
 ![](https://cdn.jsdelivr.net/gh/RemeJuan/remelehane@main/uPic/1*vih036gD7fwgfj2jXHgKHA.png)
 
 ## The Problem…
