@@ -16,7 +16,7 @@ thumb_img_path: https://cdn.jsdelivr.net/gh/RemeJuan/remelehane@master/uPic/QC3G
 
 ![](https://cdn.jsdelivr.net/gh/RemeJuan/remelehane@master/uPic/QC3GjPR-20210703084716071-20210703084934546.jpg)
 
-So, you are a developer looking for the next fun playground or evaluation viable technologies for your companies next big project?
+**So**, you are a developer looking for the next fun playground or evaluation viable technologies for your companies next big project?
 
 As someone who has been there already and inevitably decided on Flutter, let me see if I can help you with that one.
 
