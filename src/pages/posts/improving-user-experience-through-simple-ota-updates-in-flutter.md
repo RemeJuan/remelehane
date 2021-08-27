@@ -4,14 +4,15 @@ title: Improving User Experience through simple OTA updates in Flutter
 date: '2020-05-18T07:31:01.000Z'
 excerpt: >-
   Background  When I started building out the new mobile app for Wyztalk there
-  where a few things on...
 tags:
+
   - localization
   - flutter
   - flutterappdevelopment
   - flutterui
 template: post
 thumb_img_path: https://cdn.jsdelivr.net/gh/RemeJuan/remelehane@master/uPic/1*BGGjw3RFKH5yLy75441v2g.jpeg
+  where a few things on...
 ---
 
 

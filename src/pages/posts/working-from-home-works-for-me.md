@@ -4,14 +4,15 @@ title: Working from home works for me…
 date: '2021-06-01T14:53:42.000Z'
 excerpt: >-
   How it all started…   In the last year and a
-  bit, many of us have chang...
 tags:
+
   - worklifebalance
   - work
   - office
   - setup
 template: post
 thumb_img_path: https://cdn.jsdelivr.net/gh/RemeJuan/remelehane@main/uPic/1*L0a5Si8dT5ACYGpfh6Whzw-20210703161824504.jpeg
+  bit, many of us have chang...
 ---
 
 

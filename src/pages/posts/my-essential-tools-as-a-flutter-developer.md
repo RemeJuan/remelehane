@@ -111,3 +111,9 @@ I hope you found this interesting, and if you have any questions, comments, or i
 If you liked it, a heart would be awesome, and if you really liked it, a [cup of coffee](https://www.buymeacoffee.com/remelehane) would be great.
 
 Thanks for reading.
+
+---
+
+- [Flutter Web: Should I Use It](https://remelehane.dev/posts/flutter-web-should-i-use-it-part-1/)
+- [Why Choose Flutter?](https://remelehane.dev/posts/why-choose-flutter/)
+

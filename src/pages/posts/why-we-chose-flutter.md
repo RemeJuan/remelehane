@@ -4,14 +4,15 @@ title: Why we chose Flutter
 date: '2020-08-24T07:16:01.000Z'
 excerpt: >-
   Some would wonder why a company whos development team speaks almost
-  exclusively Javascript would ch...
 tags:
+
   - flutterappdevelopmen
   - mobileappdevelopment
   - hybridappdevelopment
   - flutter
 template: post
 thumb_img_path: https://cdn.jsdelivr.net/gh/RemeJuan/remelehane@master/uPic/1*yM3feYmhF04LRjVoWFyWaQ.jpeg
+  exclusively Javascript would ch...
 ---
 
 

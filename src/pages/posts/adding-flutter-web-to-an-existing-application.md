@@ -3,7 +3,6 @@ stackbit_url_path: posts/adding-flutter-web-to-an-existing-application
 title: Adding Flutter web to an existing application
 date: '2020-08-03T07:16:00.000Z'
 excerpt: >-
-  As it stands now flutter web is not ready for production use, to get started however they have prov...
 tags:
   - flutter
   - flutterweb
@@ -11,6 +10,7 @@ tags:
   - flutterdevelopment
 template: post
 thumb_img_path: https://cdn.jsdelivr.net/gh/RemeJuan/remelehane@master/uPic/1*1orxIbVfgZa4mB_qEL17Yg.jpeg
+  As it stands now flutter web is not ready for production use, to get started however they have prov...
 ---
 
 ![](https://cdn.jsdelivr.net/gh/RemeJuan/remelehane@master/uPic/1*1orxIbVfgZa4mB_qEL17Yg.jpeg)

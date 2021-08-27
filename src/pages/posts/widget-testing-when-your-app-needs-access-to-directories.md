@@ -4,13 +4,13 @@ title: Widget testing when your app needs access to directories.
 date: '2020-07-27T07:16:01.000Z'
 excerpt: >-
   Many times in an application you would have a need to store files, temporarily
-  or even permanently....
 tags:
   - widgettesting
   - flutter
   - unittesting
 template: post
 thumb_img_path: https://cdn.jsdelivr.net/gh/RemeJuan/remelehane@master/uPic/1*bnm8sRPmozmm0_tgnN97WQ.png
+  or even permanently....
 ---
 
 
