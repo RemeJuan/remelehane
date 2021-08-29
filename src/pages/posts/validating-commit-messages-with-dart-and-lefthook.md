@@ -4,14 +4,15 @@ title: Validating commit messages with dart and Lefthook
 date: '2020-08-31T07:16:01.000Z'
 excerpt: >-
   Something I had been trying to work out for my Flutter project for some time
-  was validating commit...
 tags:
+
   - dart
   - flutter
   - flutterdevelopment
   - git
 template: post
 thumb_img_path: https://cdn.jsdelivr.net/gh/RemeJuan/remelehane@master/uPic/1*kproRaJTnQivymfDqsxTkg.jpeg
+  was validating commit...
 ---
 
 

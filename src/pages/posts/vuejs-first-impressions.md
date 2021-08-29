@@ -4,14 +4,15 @@ title: 'VueJS: First Impressions'
 date: '2017-11-21T16:34:21.955Z'
 excerpt: >-
   With all the new libraries and frameworks it is pretty hard to keep up with
-  all of them, and that i...
 tags:
+
   - vue
   - frontend
   - javascript
   - webdev
 template: post
 thumb_img_path: https://cdn.jsdelivr.net/gh/RemeJuan/remelehane@master/uPic/gzic0j1dmzjhd0p2i727.jpeg
+  all of them, and that i...
 ---
 
 

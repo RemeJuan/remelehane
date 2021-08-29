@@ -4,14 +4,15 @@ title: Widget testing passed in function
 date: '2020-07-10T10:31:23.000Z'
 excerpt: >-
   In this post, we going to go through how, at least in my opinion, one would go
-  about testing that a...
 tags:
+
   - mockito
   - widgettesting
   - flutter
   - unittesting
 template: post
 thumb_img_path: https://cdn.jsdelivr.net/gh/RemeJuan/remelehane@master/uPic/1*4ezoav544ciIcSAa67ci1w.png
+  about testing that a...
 ---
 
 
