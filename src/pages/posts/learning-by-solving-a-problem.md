@@ -2,6 +2,7 @@
 stackbit_url_path: posts/learning-by-solving-a-problem
 title: Learning, by solving a “problem”
 date: '2021-08-29T09:00:00.000Z'
+published: false
 excerpt: We going to take a quick look at how we as developers can better learn new things
 tags:
   - development
@@ -10,6 +11,7 @@ tags:
   - learning-projects
 template: post
 thumb_img_path: https://cdn.jsdelivr.net/gh/RemeJuan/remelehane@main/uPic/arnold-francisca-f77Bh3inUpE-unsplash.jpg
+cover_image: https://cdn.jsdelivr.net/gh/RemeJuan/remelehane@main/uPic/arnold-francisca-f77Bh3inUpE-unsplash.jpg
 canonical_url: https://remelehane.dev/posts/learning-by-solving-a-problem
 ---
 
