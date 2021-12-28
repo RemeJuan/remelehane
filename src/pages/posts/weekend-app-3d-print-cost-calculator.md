@@ -1,6 +1,6 @@
 ---
 stackbit_url_path: posts/weekend-app-3d-print-cost-calculator
-title: Weekend App: 3D Print Cost Calculator
+title: "Weekend App: 3D Print Cost Calculator"
 date: '2021-12-28T09:00:00.000Z'
 excerpt: >-
 tags:
