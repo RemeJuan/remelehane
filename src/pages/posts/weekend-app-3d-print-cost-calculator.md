@@ -1,7 +1,7 @@
 ---
 stackbit_url_path: posts/weekend-app-3d-print-cost-calculator
 title: Weekend App: 3D Pring Cost Calculator
-date: '2020-12-28T09:00:00.000Z'
+date: '2021-12-28T09:00:00.000Z'
 excerpt: >-
 tags:
   - flutter
