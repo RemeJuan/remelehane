@@ -12,6 +12,8 @@ tags:
 template: post
 thumb_img_path: https://cdn.jsdelivr.net/gh/RemeJuan/remelehane@main/uPic/play_store_feature.jpg
 ---
+![Banner image](https://cdn.jsdelivr.net/gh/RemeJuan/remelehane@main/uPic/play_store_feature.jpg)
+
 A 3D Printer has been on my shopping/wishlist for some time, and this Black Friday a very nice one came up for a very good price, I had always assumed that the running costs of such a thing were relatively high, quite happy to say I was very wrong on that one.
 
 After a few weeks or mostly thumbsucking how much things cost I took to DuckDuckGo to see what calculators existed, and while there are quite a few, they were either very simple or overly complicated for my "for funzies" use case.
