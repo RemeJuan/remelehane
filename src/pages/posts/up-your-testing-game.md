@@ -10,16 +10,14 @@ tags:
   - fluttermobile
   - flutterdevelopment
 template: post
-thumb_img_path: https://raw.githubusercontent.com/RemeJuan/remelehane/main/2022/04/upgit_20220406_1649227494.png
-cover_image: https://raw.githubusercontent.com/RemeJuan/remelehane/main/2022/04/upgit_20220406_1649227494.png
+thumb_img_path: https://raw.githubusercontent.com/RemeJuan/remelehane/main/2022/04/upgit_20220412_1649783859.png
+cover_image: https://raw.githubusercontent.com/RemeJuan/remelehane/main/2022/04/upgit_20220412_1649783859.png
 canonical_url: https://remelehane.dev/posts/up-your-testing-game
 ---
 
 Today we going to look at a great utility provided by Flutter's testing framework which gives us a lot more power when it comes to accurately test our widgets.
 
-Very often widgets can very simply be tested using `find.byType`, `find.text` and `find.byKey`. Each of these is quite simple to use, and which you choose will depend on what exactly you are trying to test for, however, there are some scenarios where the basic tests like this will not yield valuable results.
-
-Take the following widget as an example:
+Very often widgets can very simply be tested using `find.byType`, `find.text` and `find.byKey`. Each of these is quite simple to use, and which you choose will depend on what exactly you are trying to test for, however, there are some scenarios where the basic tests like this will not yield valuable results.Take the following widget as an example:
 
 ```dart
 class SampleWidget extends StatelessWidget {
