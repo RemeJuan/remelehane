@@ -15,9 +15,9 @@ cover_image: https://raw.githubusercontent.com/RemeJuan/remelehane/main/2022/04/
 canonical_url: https://remelehane.dev/posts/up-your-testing-game
 ---
 
-Today we going to look at a great utility provided by Flutter's testing framework which gives us a lot more power when it comes to accurately testing our widgets.
+Today we going to look at a great utility provided by Flutter's testing framework which gives us a lot more power when it comes to accurately test our widgets.
 
-Very often widgets can very simply be tested using `find.byType`, `find.text` and `find.byKey`. Each of these are quite simple to use, and which you choose will depend on what exactly you are trying to test for, however there are some scenarios where the basic tests like this will not yield valuable results.
+Very often widgets can very simply be tested using `find.byType`, `find.text` and `find.byKey`. Each of these is quite simple to use, and which you choose will depend on what exactly you are trying to test for, however, there are some scenarios where the basic tests like this will not yield valuable results.
 
 Take the following widget as an example:
 
@@ -38,9 +38,9 @@ class SampleWidget extends StatelessWidget {
 
 ## Simple Usecase (Icon)
 
-Personally I do not usually test all my widgets, the above would be a sample of a very simple use-case that would make me consider writing the test, while it is extremely basic, this widget itself does poses some logic, there is a decision being made within this widget and while it's nothing complicated it serves the purpose of illustrating an ideal scenario for the test.
+Personally, I do not usually test all my widgets, the above would be a sample of a very simple use-case that would make me consider writing the test, while it is extremely basic, this widget itself does pose some logic, there is a decision being made within this widget and while it's nothing complicated it serves the purpose of illustrating an ideal scenario for the test.
 
-In the above widget there is no text I can look for, I have not supplied any Keys for the individual icons and they are both icons, so using their type would not yied in an accurate test.
+In the above widget, there is no text I can look for, I have not supplied any Keys for the individual icons and they are both icons, so using their type would not yield in an accurate test.
 
 If I were to write the test like:
 
@@ -66,11 +66,11 @@ If I were to write the test like:
     });
 ```
 
-They would both certainly pass, and if one where to look at teh coverage report, that too would indicate 100% test coverage, but the test as a whole is pretty worthless, while it is running the logic, the logic is certainly working, your test in no way proves this.
+They would both certainly pass, and if one were to look at the coverage report, that too would indicate 100% test coverage, but the test as a whole is pretty worthless, while it is running the logic, the logic is certainly working, your test in no way proves this.
 
-If you are going to take the time to write the test (and I hoep you do), the test should always provide value beyond that of the coverage report, testing for line coverage, dilutes the value and purpose of unit testing your code.
+If you are going to take the time to write the test (and I hope you do), the test should always provide value beyond that of the coverage report, testing for line coverage dilutes the value and purpose of unit testing your code.
 
-This is where `find.byWidgetPredicate` comes in handy and will allow you to write the same test above, while being able to uniquely identify the individual icons.
+This is where `find.byWidgetPredicate` comes in handy and will allow you to write the same test above while being able to uniquely identify the individual icons.
 
 `find.byWidgetPredicate` is a function based lookup that provides the widget as its function argument, this allows you to use attributes of the widget to specifically target unique instances of the same widget.
 
@@ -92,9 +92,9 @@ If we look at the next example, I have updated the `iconFinder` to make use of `
 
 As you can see, within the function body we are looking for a widget that is an `Icon`(so a type comparison) and that the icon property of that Icon widget matches the `IconData` `Icons.circle_outlined`.
 
-That way if for some reason, someone went and changed the *false* icon to `Icons.menu` for some strange reason, the `find.byWidgetPredicate` lookup would fail. If we had used the `find.byType`or even `find.byKey`, assuming we had provided unique keys, the test would have conitued to pass.
+That way if for some reason, someone went and changed the *false* icon to `Icons.menu` for some strange reason, the `find.byWidgetPredicate` lookup would fail. If we had used the `find.byType`or even `find.byKey`, assuming we had provided unique keys, the test would have continued to pass.
 
-The `find.byWidgetPredicate` lookup within widget testing allows you to write near bullet proof tests.
+The `find.byWidgetPredicate` lookup within widget testing allows you to write near bulletproof tests.
 
 ## Better usecase (RichText)
 
@@ -124,7 +124,7 @@ Take this example:
       )
 ```
 
-While this specific widget I probably would not actually test, it's a another great exmple for using the `find.byWidgetPredicate` in a more complicated scenario.
+While this specific widget I probably would not actually test, it's another great example for using the `find.byWidgetPredicate` in a more complicated scenario.
 
 ```dart
     final requiredScoreFinder = find.byWidgetPredicate(
@@ -146,7 +146,7 @@ You can use `contains` to do a partial lookup or you can simply use strict equal
     );
 ```
 
-As you can hopefully now see, `find.byWidgetPredicate` can be a very powerful tool in your testing toolbelt and will allow you to write even better, more accurate tests.
+As you can hopefully now see, `find.byWidgetPredicate` can be a very powerful tool in your testing tool belt and will allow you to write even better, more accurate tests.
 
 ****
 
