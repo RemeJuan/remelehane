@@ -4,7 +4,7 @@ hide_title: true
 sections:
   - section_id: hero
     type: section_hero
-    title: 'Hi, I''m Reme Le Hane'
+    title: "Hi, I'm Reme Le Hane"
     content: >-
       Flutter Developer.
   - section_id: about
@@ -12,6 +12,7 @@ sections:
     title: About
     content: >-
       Hi there, names Reme and I spend my working hours on [Flutter](https://flutter.dev) projects and before that I spent many years working with [ReactJS](https://reactjs.org).
+      <p>I write a lot about testing in Flutter, having come across many complex scenarios writing large scale Flutter applications, and had the privilege of presenting at the Google Developer conference in April 2021.</p>
       <p>Outside of work I really enjoy Mountain Biking, Trail Running, Hiking and in general just being outdoors.</p>
     actions:
       - label: More About Me
