@@ -32,7 +32,7 @@ template: page
 <p>In April 2021, I was priviliadged enough to be able to be one of the speakers for the Googe Developer conferences Flutter session, "Are You Flutter'ed Yet?" along with 2 other presenters.</p>
 
 <p>
-  THe following is the transcript, and you can also watch the recroding on <a href="https://www.youtube-nocookie.com/embed/oJSMT97rURs">YouTube</a> and alos download the associated <a href="https://raw.githubusercontent.com/RemeJuan/remelehane/main/files/GDC_Presentation.pptx">Powerpoint</a>
+  THe following is the transcript, and you can also watch the recroding on <a href="https://www.youtube-nocookie.com/embed/oJSMT97rURs"  target="_blank">YouTube</a> and alos download the associated <a href="https://raw.githubusercontent.com/RemeJuan/remelehane/main/files/GDC_Presentation.pptx"  target="_blank">Powerpoint</a>
 </p>
 <hr/>
 <p>Good Evening all, my name is Reme and I have been working as a Frontend Architect at Wyzetalk and have been developing their new Flutter mobile application which will be replacing their existing Ionic version 1 application.</p>
