@@ -3,7 +3,7 @@ stackbit_url_path: posts/up-your-testing-game
 title: "Flutter: Up your testing game"
 published: false
 date: '2022-04-12T12:00:00.000Z'
-excerpt: >-
+excerpt: "Let's take a look at how find.byPredicate can help write some bulletporrf tests!"
 tags:
   - flutter
   - flutterweb
