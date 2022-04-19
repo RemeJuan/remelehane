@@ -3,7 +3,7 @@ stackbit_url_path: posts/widget-testing-renderflex-overflow
 title: "Widget testing: Dealing with Renderflex Overflow Errors"
 published: false
 date: '2022-04-19T10:00:00.000Z'
-excerpt: >-
+excerpt: 'A simple solution to dealing with "A RenderFlex overflowed by…" in unit testing…'
 tags:
   - flutter
   - flutterweb
