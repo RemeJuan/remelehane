@@ -17,7 +17,7 @@ canonical_url: https://remelehane.dev/posts/flutter-data-testing
 
 ![data-model-testing](https://raw.githubusercontent.com/RemeJuan/remelehane/main/2022/04/upgit_20220415_1649993056.png)
 
-In a previous post we discussed using `find.byPredicate` for more accurate and bulletproof widget testing.
+In a previous post, we discussed using `find.byPredicate` for more accurate and bulletproof widget testing.
 
 [Flutter: Up your testing game](https://remelehane.dev/posts/up-your-testing-game/)
 
@@ -51,11 +51,11 @@ class MenuItem {
 }
 ```
 
-Take this class for example, adding in `freezed` would have been strait forward, add 2 or 3 lines of code and an extra generated file, however to me it felt unnecessary as this is a model I created for simply managing a navigation list, their is no data to test, no relation to an API, no need for equality or the utility methods, etc.
+Take this class, for example, adding in `freezed` would have been straightforward, add 2 or 3 lines of code and an extra generated file, however to me it felt unnecessary as this is a model I created for simply managing a navigation list, there is no data to test, no relation to an API, no need for equality or the utility methods, etc.
 
-There is a menu in my application, which get provided the `menuItems` list and with that I generate the nav items.
+There is a menu in my application, which gets provided the `menuItems` list and with that, I generate the nav items.
 
-However, I do still want to be able to accurately test `itemsToDisplay`, the 1 bit of logic attached to this class, by default all items are based to the generation function, however not all screens have all the nav items. The login screen would have no need of the Logout button for example.
+However, I do still want to be able to accurately test `itemsToDisplay`, the 1 bit of logic attached to this class, by default all items are based on the generation function, however not all screens have all the nav items. The login screen would have no need for the Logout button for example.
 
 ## The Test...
 
@@ -80,16 +80,15 @@ As with widgets, we can use `predicate` as part of our expect function, to drill
   });
 ```
 
-In the above example, we would have had 4 items in the `menuItems` list, and made the decision to filter out all BUT `logout`.
+In the above example, we would have had 4 items in the `menuItems` list and made the decision to filter out all BUT `logout`.
 
 In order to verify our function is working then, we use `predicate` which takes a function as an expectation, to which we have the data type we are expecting and then return a check which yields a boolean result.
 
-In this case, we had a list that contained 4 menu items, we excluded 3 of them so we verify that our list only has 1 item in it, and to make sure the correct item remains, we verify that first (only) item in the list has the key of `MenuItemKey.logout`, which is the enum value assigned to the navigation item.
+In this case, we had a list that contained 4 menu items, we excluded 3 of them so we verify that our list only has 1 item in it, and to make sure the correct item remains, we verify that the first (only) item in the list has the key of `MenuItemKey.logout`, which is the enum value assigned to the navigation item.
 
 ## Conclusion...
 
-As you can by now see, `find.byPredicate` and `predicate` are 2 very useful methods that we as testers should keep in mind when writing out tests. They can help with less-standard use cases and allow us to write a higher quality of test.
-
+As you can now see, `find.byPredicate` and `predicate` are 2 very useful methods that we as testers should keep in mind when writing out tests. They can help with less-standard use cases and allow us to write a higher-quality test.
 ---
 
 I hope you found this interesting, and if you have any questions, comments, or improvements, feel free to drop a comment. Enjoy your Flutter development journey :D
