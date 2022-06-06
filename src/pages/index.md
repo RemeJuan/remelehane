@@ -34,10 +34,10 @@ seo:
       value: website
       keyName: property
     - name: 'og:title'
-      value: Reme Le Hane | Flutter Developer
+      value: Reme Le Hane | Frontend Architect (React/Flutter)
       keyName: property
     - name: 'og:description'
-      value: Reme Le Hane | Flutter Developer
+      value: Reme Le Hane | Frontend Architect (React/Flutter)
       keyName: property
     - name: 'og:image'
       value: images/4.jpg
@@ -46,9 +46,9 @@ seo:
     - name: 'twitter:card'
       value: summary_large_image
     - name: 'twitter:title'
-      value: Reme Le Hane | Flutter Developer
+      value: Reme Le Hane | Frontend Architect (React/Flutter)
     - name: 'twitter:description'
-      value: Reme Le Hane | Flutter Developer
+      value: Reme Le Hane | Frontend Architect (React/Flutter)
     - name: 'twitter:image'
       value: images/4.jpg
       relativeUrl: true
