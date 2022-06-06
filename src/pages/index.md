@@ -6,7 +6,7 @@ sections:
     type: section_hero
     title: "Hi, I'm Reme Le Hane"
     content: >-
-      Flutter Developer.
+      Frontend Architect (React/Flutter).
   - section_id: about
     type: section_content
     title: About
@@ -27,8 +27,8 @@ sections:
         url: blog/index.html
         style: button
 seo:
-  title: Reme Le Hane | Flutter Developer
-  description: Flutter Developer
+  title: Reme Le Hane | Frontend Architect (React/Flutter)
+  description: Frontend Architect (React/Flutter)
   extra:
     - name: 'og:type'
       value: website
