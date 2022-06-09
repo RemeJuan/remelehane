@@ -12,7 +12,6 @@ tags:
   - unittesting
 template: post
 thumb_img_path: https://cdn.jsdelivr.net/gh/RemeJuan/remelehane@master/uPic/1*4ezoav544ciIcSAa67ci1w.png
-  about testing that a...
 ---
 
 

@@ -12,7 +12,6 @@ tags:
   - webdev
 template: post
 thumb_img_path: https://cdn.jsdelivr.net/gh/RemeJuan/remelehane@master/uPic/gzic0j1dmzjhd0p2i727.jpeg
-  all of them, and that i...
 ---
 
 

@@ -12,7 +12,6 @@ tags:
   - flutterui
 template: post
 thumb_img_path: https://cdn.jsdelivr.net/gh/RemeJuan/remelehane@master/uPic/1*BGGjw3RFKH5yLy75441v2g.jpeg
-  where a few things on...
 ---
 
 

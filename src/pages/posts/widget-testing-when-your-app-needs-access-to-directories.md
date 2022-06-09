@@ -10,7 +10,6 @@ tags:
   - unittesting
 template: post
 thumb_img_path: https://cdn.jsdelivr.net/gh/RemeJuan/remelehane@master/uPic/1*bnm8sRPmozmm0_tgnN97WQ.png
-  or even permanently....
 ---
 
 

@@ -12,7 +12,6 @@ tags:
   - flutter
 template: post
 thumb_img_path: https://cdn.jsdelivr.net/gh/RemeJuan/remelehane@master/uPic/1*IHvlDw_HqNSpLJfsKbOr0Q.jpeg
-  cannot be done with the s...
 ---
 
 

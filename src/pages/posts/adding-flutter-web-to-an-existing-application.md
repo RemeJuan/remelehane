@@ -10,7 +10,6 @@ tags:
   - flutterdevelopment
 template: post
 thumb_img_path: https://cdn.jsdelivr.net/gh/RemeJuan/remelehane@master/uPic/1*1orxIbVfgZa4mB_qEL17Yg.jpeg
-  As it stands now flutter web is not ready for production use, to get started however they have prov...
 ---
 
 ![](https://cdn.jsdelivr.net/gh/RemeJuan/remelehane@master/uPic/1*1orxIbVfgZa4mB_qEL17Yg.jpeg)

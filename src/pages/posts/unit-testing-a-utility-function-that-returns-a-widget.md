@@ -5,13 +5,11 @@ date: '2021-03-31T11:22:38.000Z'
 excerpt: >-
   Probably not too common a use case, but for me I have a utility function for
 tags:
-
   - flutter
   - unittesting
   - flutterappdevelopmen
 template: post
 thumb_img_path: https://cdn.jsdelivr.net/gh/RemeJuan/remelehane@master/uPic/1*dqggYKcf6EZ3T2E9dRAL8A.jpeg
-  handling in-app naviga...
 ---
 
 
