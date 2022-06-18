@@ -3,7 +3,7 @@ stackbit_url_path: posts/flutter-data-testing
 title: "Flutter: Data Testing"
 published: false
 date: '2022-05-09T12:00:00.000Z'
-excerpt: >-
+excerpt: This time we take a look at using predicated when testing data classes
 tags:
   - flutter
   - flutterweb

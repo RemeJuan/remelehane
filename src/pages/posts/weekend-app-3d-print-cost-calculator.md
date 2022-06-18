@@ -2,7 +2,7 @@
 stackbit_url_path: posts/weekend-app-3d-print-cost-calculator
 title: "Weekend App: 3D Print Cost Calculator"
 date: '2021-12-28T09:00:00.000Z'
-excerpt: >-
+excerpt: A small app I built to solve a really simply problem I had, while testing form_bloc and VG CLI
 tags:
   - flutter
   - flutterweb
