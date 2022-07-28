@@ -10,12 +10,11 @@ tags:
   - fluttermobile
   - flutterdevelopment
 template: post
-thumb_img_path: https://raw.githubusercontent.com/RemeJuan/remelehane/main/2022/04/upgit_20220415_1649993056.png
-cover_image: https://raw.githubusercontent.com/RemeJuan/remelehane/main/2022/04/upgit_20220415_1649993056.png
-canonical_url: https://remelehane.dev/posts/flutter-data-testing
+thumb_img_path: https://raw.githubusercontent.com/RemeJuan/remelehane/main/2022/07/upgit_20220728_1658994619.jpg
+cover_image: https://raw.githubusercontent.com/RemeJuan/remelehane/main/2022/07/upgit_20220728_1658994619.jpg
 ---
 
-![data-model-testing](https://raw.githubusercontent.com/RemeJuan/remelehane/main/2022/04/upgit_20220415_1649993056.png)
+![shahadat-rahman-BfrQnKBulYQ-unsplash](https://raw.githubusercontent.com/RemeJuan/remelehane/main/2022/07/upgit_20220728_1658994619.jpg)
 
 In a previous post, we discussed using `find.byPredicate` for more accurate and bulletproof widget testing.
 
@@ -89,7 +88,6 @@ In this case, we had a list that contained 4 menu items, we excluded 3 of them s
 ## Conclusion...
 
 As you can now see, `find.byPredicate` and `predicate` are 2 very useful methods that we as testers should keep in mind when writing out tests. They can help with less-standard use cases and allow us to write a higher-quality test.
----
 
 I hope you found this interesting, and if you have any questions, comments, or improvements, feel free to drop a comment. Enjoy your Flutter development journey :D
 
@@ -104,3 +102,4 @@ Wish to carry on with the topic of Unit Testing, take a look at:
 - [Widget testing: Dealing with Renderflex Overflow Errors](https://remelehane.dev/posts/widget-testing-rendeflex-overflow/)
 - [Flutter: Up your testing game](https://remelehane.dev/posts/up-your-testing-game/)
 
+Photo by [Shahadat Rahman](https://unsplash.com/@hishahadat?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/data?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)

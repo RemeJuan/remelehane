@@ -10,12 +10,12 @@ tags:
   - fluttermobile
   - flutterdevelopment
 template: post
-thumb_img_path: https://raw.githubusercontent.com/RemeJuan/remelehane/main/2022/04/upgit_20220412_1649783859.png
-cover_image: https://raw.githubusercontent.com/RemeJuan/remelehane/main/2022/04/upgit_20220412_1649783859.png
+thumb_img_path: https://raw.githubusercontent.com/RemeJuan/remelehane/main/2022/07/upgit_20220728_1658994945.jpg
+cover_image: https://raw.githubusercontent.com/RemeJuan/remelehane/main/2022/07/upgit_20220728_1658994945.jpg
 canonical_url: https://remelehane.dev/posts/up-your-testing-game
 ---
 
-![Sample Widget](https://raw.githubusercontent.com/RemeJuan/remelehane/main/2022/04/upgit_20220412_1649783859.png)
+![jachymmichal-oVWilf8znF8-unsplash](https://raw.githubusercontent.com/RemeJuan/remelehane/main/2022/07/upgit_20220728_1658994945.jpg)
 
 Today we going to look at a great utility provided by Flutter's testing framework which gives us a lot more power when it comes to accurately test our widgets.
 
@@ -162,3 +162,5 @@ Wish to carry on with the topic of Unit Testing, take a look at:
 
 - [Automated Unit Testing with GitHub Actions](https://remelehane.dev/posts/automated-unit-testing-with-github-actions/)
 - [Unit testing DateTime.now() with the help of Dart extensions](https://remelehane.dev/posts/unit-testing-dattimenow-with-the-help-of-dart-extensions/)
+
+Photo by [ᴊᴀᴄʜʏᴍ ᴍɪᴄʜᴀʟ](https://unsplash.com/@jachymmichal?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/chess?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
