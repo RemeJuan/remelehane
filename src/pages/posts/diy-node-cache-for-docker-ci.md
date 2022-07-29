@@ -49,7 +49,7 @@ COPY package*.json ./
 
 RUN npm install --no-audit --progress=false
 
-FROM node:18-alpine as release
+FROM alpine as release
 
 COPY --from=build /node_modules ./node_modules
 ```
