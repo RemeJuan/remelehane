@@ -83,13 +83,56 @@ RUN npm install --only=production
 CMD [ "npm", "run", "prod" ]
 ```
 
-Further down you would see `COPY --from=cache /node_modules ./node_modules` which is copying the modules from our cache image into our build image. This way, only versions that have been updated since this image was last built would need to be downloaded.
+### Build Stage
+
+This is where we make use of the cache, for this step we use the `node-18` image, the same image that was used as part of building the original cache image, and the key part of this is the line `COPY --from=cache /node_modules ./node_modules`, this line is copying the node modules folder from our cache into our build stage.
+
+Doing this means we now have access to the relevant installed package, in a like environment, within our build stage. We then copy over the package files specifically followed by the remaining files in the directory.
+
+It should also be noted that your project should include a `dockerignore` file, and `node_modules` should be specified in that file, otherwise the `COPY . ./` step would override the node_modules folder within the container.
+
+Next we run the `npm install` step, the additional arguments can speed things up a bit, but the also specify that npm needs to check locally before checking online, this would ensure that only packages added, or upgraded, since the cache images last build would then be downloaded.
+
+### Release Stage
+
+If we take a look a bit further down at the release stage, the first few steps are to copy of the build directory (our compiled web app), the package.json file as well as the `server.js`.
+
+The `server.js` is a small `express` server, allowing us to access our application held within the docker container, from the web.
+
+```js
+const http = require('http');
+const Express = require("express");
+const path = require('path');
+
+const port = process.env.PORT || 7010;
+
+const app = Express();
+const server = http.createServer(app);
+
+server.listen(port, function () {
+    console.log(`Server listening on port ${port}`);
+});
+
+app.get('/', function(req, res) {
+    res.sendFile(path.join(__dirname, "build", "index.html"));
+});
+
+app.use(Express.static(path.join(__dirname, "build")));
+
+module.exports = server;
+```
+
+The second to last command is `RUN npm install --only=production`, that included flag instructs node to only install packages listed within the "dependencies" key of the `package.json`, ignoring anything in "devDependencies", so for this particular example, only `express` is being installed into the `alpine` image.
+
+For this to work best, you need to ensure your `package.json` is split up correctly to ensure only required packages are listed as dependencies, all the rest should be devDependencies.
 
 ---
 
-For those who would like to test out this solution, I have created a [REPO](https://github.com/RemeJuan/docker-cache-example) using the standard [CRA](http://create-react-app.dev).
+In my local testing, this resulted in an over 60% improvement in build times, with the average builds taking at least 150 seconds before this update, to under 50 seconds after.
 
-All instructions are included in the README.md.
+In the pipeline, we saw a 40-45% improvement in build times, which would be as a result of images needed to be downloaded first.
+
+For those who would like to take a further look, and even test out this solution, I have created a [REPO](https://github.com/RemeJuan/docker-cache-example) using the standard [CRA](http://create-react-app.dev), where you will find similar Docker files, and you can follow the steps in the readme to get things going.
 
 ---
 
