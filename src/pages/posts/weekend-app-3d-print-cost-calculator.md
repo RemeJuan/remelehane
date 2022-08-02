@@ -10,9 +10,9 @@ tags:
   - flutterdevelopment
   - 3dprinting
 template: post
-thumb_img_path: https://cdn.jsdelivr.net/gh/RemeJuan/remelehane@main/uPic/play_store_feature.jpg
+thumb_img_path: https://cdn.jsdelivr.net/gh/RemeJuan/remelehane@main/uPic/play_store_feature.webp
 ---
-![Banner image](https://cdn.jsdelivr.net/gh/RemeJuan/remelehane@main/uPic/play_store_feature.jpg)
+![Banner image](https://cdn.jsdelivr.net/gh/RemeJuan/remelehane@main/uPic/play_store_feature.webp)
 
 A 3D Printer has been on my shopping/wishlist for some time, and this Black Friday a very nice one came up for a very good price, I had always assumed that the running costs of such a thing were relatively high, quite happy to say I was very wrong on that one.
 

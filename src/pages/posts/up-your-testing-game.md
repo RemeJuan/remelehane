@@ -10,12 +10,12 @@ tags:
   - fluttermobile
   - flutterdevelopment
 template: post
-thumb_img_path: https://raw.githubusercontent.com/RemeJuan/remelehane/main/2022/07/upgit_20220728_1658994945.jpg
-cover_image: https://raw.githubusercontent.com/RemeJuan/remelehane/main/2022/07/upgit_20220728_1658994945.jpg
+thumb_img_path: https://raw.githubusercontent.com/RemeJuan/remelehane/main/2022/07/upgit_20220728_1658994945.webp
+cover_image: https://raw.githubusercontent.com/RemeJuan/remelehane/main/2022/07/upgit_20220728_1658994945.webp
 canonical_url: https://remelehane.dev/posts/up-your-testing-game
 ---
 
-![jachymmichal-oVWilf8znF8-unsplash](https://raw.githubusercontent.com/RemeJuan/remelehane/main/2022/07/upgit_20220728_1658994945.jpg)
+![jachymmichal-oVWilf8znF8-unsplash](https://raw.githubusercontent.com/RemeJuan/remelehane/main/2022/07/upgit_20220728_1658994945.webp)
 
 Today we going to look at a great utility provided by Flutter's testing framework which gives us a lot more power when it comes to accurately test our widgets.
 

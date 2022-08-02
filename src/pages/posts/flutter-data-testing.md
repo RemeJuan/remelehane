@@ -10,11 +10,11 @@ tags:
   - fluttermobile
   - flutterdevelopment
 template: post
-thumb_img_path: https://raw.githubusercontent.com/RemeJuan/remelehane/main/2022/07/upgit_20220728_1658994619.jpg
-cover_image: https://raw.githubusercontent.com/RemeJuan/remelehane/main/2022/07/upgit_20220728_1658994619.jpg
+thumb_img_path: https://raw.githubusercontent.com/RemeJuan/remelehane/main/2022/07/upgit_20220728_1658994619.webp
+cover_image: https://raw.githubusercontent.com/RemeJuan/remelehane/main/2022/07/upgit_20220728_1658994619.webp
 ---
 
-![shahadat-rahman-BfrQnKBulYQ-unsplash](https://raw.githubusercontent.com/RemeJuan/remelehane/main/2022/07/upgit_20220728_1658994619.jpg)
+![shahadat-rahman-BfrQnKBulYQ-unsplash](https://raw.githubusercontent.com/RemeJuan/remelehane/main/2022/07/upgit_20220728_1658994619.webp)
 
 In a previous post, we discussed using `find.byPredicate` for more accurate and bulletproof widget testing.
 

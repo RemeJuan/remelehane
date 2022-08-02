@@ -9,12 +9,12 @@ tags:
   - ci
   - node_modules
 template: post
-thumb_img_path: https://raw.githubusercontent.com/RemeJuan/remelehane/main/2022/07/upgit_20220727_1658922123.jpg
-cover_image: https://raw.githubusercontent.com/RemeJuan/remelehane/main/2022/07/upgit_20220727_1658922123.jpg
+thumb_img_path: https://raw.githubusercontent.com/RemeJuan/remelehane/main/2022/07/upgit_20220727_1658922123.webp
+cover_image: https://raw.githubusercontent.com/RemeJuan/remelehane/main/2022/07/upgit_20220727_1658922123.webp
 canonical_url: https://remelehane.dev/posts/diy-node-cache-for-docker-ci
 ---
 
-![timelab-pro-yx20mpDyr2I-unsplash](https://raw.githubusercontent.com/RemeJuan/remelehane/main/2022/07/upgit_20220727_1658922123.jpg)
+![timelab-pro-yx20mpDyr2I-unsplash](https://raw.githubusercontent.com/RemeJuan/remelehane/main/2022/07/upgit_20220727_1658922123.webp)
 
 ## Background
 
