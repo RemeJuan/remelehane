@@ -2,7 +2,7 @@
 
 My personal website/blog
 
-[![remelehane.dev preview](preview.png)](remelehane.dev preview)
+[![remelehane.dev preview](preview.webp)](remelehane.dev preview)
 
 [Website](https://www.remelehane.dev) | [LinkedIn](https://www.linkedin.com/in/remelehane/) | [Twitter](https://twitter.com/RemeJuan) | [Medium](https://remelehane.medium.com/)
 
