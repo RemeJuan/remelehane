@@ -1,7 +1,7 @@
 ---
 stackbit_url_path: posts/github-copilot-1-year-later
 title: "GitHub CoPilot one year later..."
-date: '2021-12-28T09:00:00.000Z'
+date: '2022-12-26T09:00:00.000Z'
 excerpt: My thoughts on GitHub's CoPilot after a year of using it.
 tags:
   - GitHub
