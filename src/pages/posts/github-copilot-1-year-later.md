@@ -88,3 +88,14 @@ More experienced developers will more easily spot code smell, will more easily s
 While it is a tool that can be of great benefit to developers, those still learning, and those new to the game could fall victim to inadvertently learning bad practices, CoPilot is after all trained on pretty much everything on GitHub, not everything is of high quality, some of it even has to be downright garbage.
 
 Realistically, or at least optimistically, the algorithm was correctly weighted to more likely surface suggestions based on the higher quality code, but that will not always be the case.
+
+***
+
+I hope you found this interesting, and if you have any questions, comments, or improvements, feel free to drop a comment. Enjoy your development journey :D
+
+Thanks for reading.
+
+***
+
+* [Automated Unit Testing with GitHub Actions](https://remelehane.dev/posts/automated-unit-testing-with-github-actions/)
+* [DIY node_modules cache for Docker in your CI](https://remelehane.dev/posts/diy-node-cache-for-docker-ci/)
