@@ -8,7 +8,6 @@ tags:
   - CoPilot
   - aiprogramming
   - aicoding
-  - 3dprinting
 template: post
 thumb_img_path: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/81543ecbe4f5223bc251b9a7e0a0d11c.jpeg
 ---
