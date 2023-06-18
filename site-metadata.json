@@ -20,6 +20,11 @@
                 "style": "link"
             },
             {
+                "label": "Applications",
+                "url": "/apps/",
+                "style": "link"
+            },
+            {
                 "label": "Google Dev Conf",
                 "url": "/gdc/",
                 "style": "link"
