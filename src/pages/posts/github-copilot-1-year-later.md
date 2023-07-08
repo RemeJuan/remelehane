@@ -1,83 +1,92 @@
 ---
-stackbit_url_path: posts/getting-creative-with-shorebird
-title: "Getting creative with Shorebird"
-date: '2023-07-10T09:00:00.000Z'
-excerpt: Working with shorebird to replace a manual distribution channel
+stackbit_url_path: posts/github-copilot-1-year-later
+title: "GitHub CoPilot one year later..."
+date: '2022-12-26T09:00:00.000Z'
+excerpt: My thoughts on GitHub's CoPilot after a year of using it.
 tags:
-  - Shorebird
-  - Flutter
-  - FlutterDevelopment
-  - AppDeployment
+  - GitHub
+  - CoPilot
+  - aiprogramming
+  - aicoding
 template: post
-thumb_img_path: https://cdn.hashnode.com/res/hashnode/image/upload/v1688732912936/2b17ed9c-a6b7-4cf7-8f48-42da5c1d1c14.webp
+thumb_img_path: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/81543ecbe4f5223bc251b9a7e0a0d11c.jpeg
 ---
 
-![Github CoPilot](https://cdn.hashnode.com/res/hashnode/image/upload/v1688732912936/2b17ed9c-a6b7-4cf7-8f48-42da5c1d1c14.webp)
+![Github CoPilot](https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/81543ecbe4f5223bc251b9a7e0a0d11c.jpeg)
 
-## Some background
+AI is one of the current hot topics, although CoPilot may be somewhat older news. As one of the early adopters, I thought it was about time I put my thoughts down.
 
-We have started doing initial testing with a new client, however, they place restrictions on their devices as well as what can be accessed online, this, unfortunately, includes Google Play Store. Naturally that makes getting them updates a little complicated.
+I started using CoPilot near the end of the beta phase, and back then I will admit I was not too impressed, but as someone who likes new toys, I stuck with it, and eventually, it grew on me, and it started becoming useful.
 
-The initial test group is quite small with 5 users, and they are all located at a single location, once the initial test phase is done the full rollout will include about 3000 devices across an entire country. So right now, driving 50km at 5 am, while not fun, to install updates on those devices, is most certainly not viable beyond this phase.
+I never gave it the best odds, I am predominantly a Flutter developer, and neither dart nor flutter was listed as one of the supported languages, yet it soon started making very useful suggestions, nothing groundbreaking, nothing I would not have typed out myself, but boy was it handy to replace a few hundred keystrokes with a simple tap of the "Tab" key.
 
-SO boy was I happy to have found Shorebird the week before this all started, not that I had time to try it out then...
+## Is it replacing developers?
 
-In its early stages, it does have some complications that are less ideal for our current workflow, but those are still better than whatever the alternative would end up being.
+I think this question by now has been answered to death, but I also feel like people are also not done asking it, and the simple answer is No.
 
-## Version Constraints
+Fundamentally I think there are 2 main reasons for this, the important one being it is very far off from any form of sentience. What it writes is useful, but flawed,
 
-While Shorebird allows one to build a  patch update, which by looking at the CI is done by creating a diff from the current release, the release is tied to the version in the `pubspec.yaml` file. While not actually easy itself and generally easily manageable, our workflow relies on semantic versioning both for support post-release as well as managing builds and deployments.
+The second one is, clients, I have been a developer for over 12 years, and I am yet to find a customer who both knows what they want and how to articulate it, their idea of a brief is a paragraph and a few grunts.
 
-Under normal circumstances, one would rely only on Shorebird for more urgent hotfixes, so being tied to a release would not be a major issue as the Play Store/Appstore would handle normal features or bug fixes.
+Up until customers, people in general, actually know what they want, and how to articulate it, AI may as well be a rock.
 
-As you can imagine, however, for this scenario I would be looking at Shorebird as an additional distribution channel, and while it can only patch dart code changes, the occasional APK update that can be sent to users, either via IT support or some other means can be managed as it would be very infrequent.
+## Where is it most useful?
 
-However as is the nature of software development we release quite regularly, during the testing phase (we worked on-prem) we did about 10 releases, and while that is slowing down we would still be looking at 1-3 per week for the next few weeks.
+As mentioned, I have been using it for some time, and I have found that it's proven itself most valuable in the areas of tedium, as well as the occasional google prevention.
 
-### The workaround
+### The Tedium...
 
-From a release management standpoint I have defined a fixed version, unrelated to our actual application version for this client, this allows me to work with the following script
+What I mean by this, is those areas of simpler, repetitive code, one of my first "wow" moments, back when it was way more wrong than right, I was writing a simple function to either choose text or an icon, something reasonably simple, and the crux of the function would have been a switch statement on the incoming argument.
 
-```bash
-#/bin/sh
+I typed "switch" and the preceding 15 lines were suggested, just like that, and 100% correct too.
 
-# get the current version from pubspec.yaml
-pubspec_yaml=$(cat "pubspec.yaml")
-version_key=$(echo "$pubspec_yaml" | grep -E "version:")
-v=$(echo "$version_key" | sed -E "s/version: //g")
-# Set the version to 0.0.0
-fvm flutter pub run cider version 0.0.0
+Since then it has gotten both better and worse, it seems at times to lose a bit of context of the app and suggest the correct variable or type for example but choose a different *style,* so where I am using "qr\_code" it would instead suggest "qrCode".
 
-shorebird patch --flavor production --artifact apk
+Not a train smash at all, and honestly, it takes far less time to fix up the few odd mistakes like that, which the highlighted by the editor anyway, than to have written the entire thing out.
 
-fvm flutter pub run cider version $v
+Another place it has proven to be quite useful is unit tests, if I am testing a function or class, I can often get away with only writing the first test and it will start suggesting with above 90% accuracy the rest of them, and they get more accurate once I begin correcting it, that alone has probably saved me many hours.
+
+### The Googling...
+
+This is something I run into less often, but can also prove itself to be very handy, one of the things you can do with CoPilot, is "request" code via comments, I have used this many times for simple functions, or even ones similar he switches above, where I can get a 90%+ accurate function, off basically asking it a question.
+
+This also helps a lot with memory, the problem with being a developer for over a decade is there is a lot to remember, and sometimes it's the simple things can become less clear in one's head, especially when working in 3 different languages.
+
+When unclear, the reflex is to simply google it and double-check what is in your head, however, you can get a good enough answer by asking CoPilot.
+
+The most recent use-case was remembering just how to sort an array by another array, in dart.
+
+```dart
+      ..sort((a, b) {
+        final aIndex = sortOrder.indexOf(a.type);
+        final bIndex = sortOrder.indexOf(b.type);
+        return aIndex.compareTo(bIndex);
+      });
 ```
 
-For some clarification, this script starts by getting the actual version from the yaml and storing it in a variable.
+This is exactly what I got when I commented:
 
-Next, using [cider](https://pub.dev/packages/cider) I set the version to the one that would be used for this client, run the patch and then set the version to what is stored in the variable.
+```dart
+// sort the data by type using the sortOrder array
+```
 
-There is a similar release script which would be used when an actual new APK is used, but the flow is much the same.
+Now this is nothing amazing, or groundbreaking, and as examples go it is also pretty simple, and it can do more, but this is one of those silly, simple things that you probably should not need to, but at that moment do, need to google.
 
-As for the support aspect, we use cider for managing versioning as well, so as part of that script, I simply `echo` the version number into a `version.txt` file which is read up into the app, and instead of getting the app version of `PlatformInfo`, it now comes from that text file, at least that way both Shorebird and non-Shorebird clients will still see the "correct" version.
+This way you can stay in your editor, and even if it is not 100%, it will get you close enough to fill in the blanks, and if you are unit testing your code, you also have that third check.
 
-## The correct APK
+### Where does it fall short?
 
-Another small thing I ran into, which was very quickly resolved by messaging them on Discord, and is actually just something missing from the docs, the release command by default builds an app bundle, which is perfect/preferred for dealing with the Play Store. Not so much when needing to distribute manually.
+Not sure this one is needed as I think I have covered many of its shortcomings already, but to reiterate, it's not perfect, it will seldom generate perfect code, and odds are 8 out of 10 times you are going to need to fix at least a couple of things of its suggestions, but at least for my experience, that is good enough, it saves enough time to warrant its usefulness, to warrant it's cost.
 
-After contacting them I found out that `shorebird build`, while wrapping Flutter's build command, allowing me to get an APK, does not include the patch flow, so it will not get updated when patches are pushed out. 
+### My Concerns...
 
-If one needs an APK that will, you need to append `--artifact apk` to the release command. In my case, however, that was not the last of it...
+While it may have come a cross as a lot of praise towards CoPilot, I am also not without my concerns, the problems highlighted of code being imperfect can, in less experienced hands, and especially in an untyped codebase, probably was a lot of time.
 
-### My Device Does Not Play Well With Others
+More experienced developers will more easily spot code smell, will more easily spot incorrectly suggested variables, and will more easily spot suboptimal code.
 
-For testing, my device is a Samsung A23, however, I noticed when swiping the app away, the patch was not coming through, no matter how long I left the app open or how many times I killed it. So I installed some network monitoring tools into the device and noticed that no calls were being made to `api.shorebird.dev`, which is how updates are queries.
+While it is a tool that can be of great benefit to developers, those still learning, and those new to the game could fall victim to inadvertently learning bad practices, CoPilot is after all trained on pretty much everything on GitHub, not everything is of high quality, some of it even has to be downright garbage.
 
-Turns out, at last on this device, which would also be a modification Samsung made to the OS, swiping the app away, does not actually "kill" it. I was only able to get the patch to install when going into the applications setting and hitting "Force Kill".
-
-Once again support to the rescuer, Shorebird has a [package](https://pub.dev/packages/shorebird_code_push) one can install, that allows you to trigger the update checks/downloads from within the application which would be essential for scenarios like this one.
-
-One could either hook this up to the AppLifecycle events or perhaps attach it to a button, which was the approach I took, as the specific devices said client uses do not trigger these events #FunTimes.
+Realistically, or at least optimistically, the algorithm was correctly weighted to more likely surface suggestions based on the higher quality code, but that will not always be the case.
 
 ***
 
@@ -87,5 +96,5 @@ Thanks for reading.
 
 ***
 
-* [Flutter: Data Testing](https://remelehane.dev/posts/flutter-data-testing/)
-* [Widget testing: Dealing with Renderflex Overflow Errors](https://remelehane.dev/posts/widget-testing-rendeflex-overflow/)
+* [Automated Unit Testing with GitHub Actions](https://remelehane.dev/posts/automated-unit-testing-with-github-actions/)
+* [DIY node_modules cache for Docker in your CI](https://remelehane.dev/posts/diy-node-cache-for-docker-ci/)
