@@ -1,7 +1,7 @@
 ---
 stackbit_url_path: posts/firebase-vs-device-time
 title: "Firebase vs Device Time"
-date: '2023-07-10T09:00:00.000Z'
+date: '2023-09-10T09:00:00.000Z'
 excerpt: Solving incorrect timestamps as a result of incorrect device time
 tags:
   - Shorebird
