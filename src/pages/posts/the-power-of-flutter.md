@@ -11,7 +11,7 @@ tags:
 template: post
 thumb_img_path: https://img.freepik.com/free-vector/onboarding-app-concept-purchase_23-2148415351.jpg?size=626&ext=jpg&ga=GA1.1.1412446893.1704844800&semt=ais
 Cover_image: https://img.freepik.com/free-vector/onboarding-app-concept-purchase_23-2148415351.jpg?size=626&ext=jpg&ga=GA1.1.1412446893.1704844800&semt=ais
-published_at: 2023-09-10 09:00 +0200
+published_at: '2023-01-16T09:00:00.000Z'
 canonical_url: https://remelehane.dev/posts/the-power-of-flutter/
 ---
 
