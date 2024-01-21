@@ -101,11 +101,11 @@ To sign the App Bundle, follow these steps:
 
 1.  Generate a signing key using the `keytool` command. This key will be used to sign the App Bundle. For example:
 
-`keytool \-genkey \-v \-keystore mykey.keystore \-alias mykey \-keyalg RSA \-keysize 2048 \-validity 10000`  
+`keytool -genkey -v -keystore mykey.keystore -alias mykey -keyalg RSA -keysize 2048 -validity 10000`  
 
 2.  Encode the keystore file as base64. You can use the following command:
 
-`base64 \-i ./mykey.keystore \-o ./keystore\-base64.txt  `
+`base64 -i ./mykey.keystore -o ./keystore-base64.txt  `
 
 3.  Add the base64 encoded keystore file, along with other necessary information, as secrets in your GitHub repository. Make sure to remove any spaces when adding the secrets.
 4.  In your workflow file, add the following code to sign the App Bundle:
@@ -158,4 +158,5 @@ In this comprehensive guide, we have covered the process of deploying a Flutter 
 
 ---
 
-* 
+*  [Deploying a Flutter Application on Azure Pipelines: A Comprehensive Guide](https://remelehane.dev/posts/deplying-flutter-application-azure/)
+*  [The Power of Flutter: Creating Cross-Platform Applications](https://remelehane.dev/posts/the-power-of-flutter/)
