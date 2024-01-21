@@ -1,7 +1,7 @@
 ---
 stackbit_url_path: posts/flitter-widget-testing
 title: "Flutter Widget Testing: Enhancing the Accuracy and Efficiency of Your App Testing"
-date: '2023-09-23T09:00:00.000Z'
+date: '2023-10-23T09:00:00.000Z'
 excerpt: >-
 tags:
   - flutter
