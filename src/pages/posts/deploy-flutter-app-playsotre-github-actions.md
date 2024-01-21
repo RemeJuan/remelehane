@@ -1,12 +1,12 @@
 ---
 stackbit_url_path: posts/deploy-flutter-app-playsotre-github-actions
-title: "The Power of Flutter for Web Development: Should You Use it?"
+title: "Deploying Flutter Application with Github Actions (PlayStore)"
 date: '2023-06-19T09:00:00.000Z'
 excerpt: >-
 tags:
   - flutter
-  - flutterweb
-  - fluttermobile
+  - github
+  - cicd
   - flutterdevelopment
 template: post
 thumb_img_path: https://img.freepik.com/free-vector/mobile-app-development-composition-with-flowchart-isometric-platforms-application-icons-human-characters-text-captions-vector-illustration_1284-77306.jpg?size=626&ext=jpg&ga=GA1.1.2116175301.1701561600&semt=ais

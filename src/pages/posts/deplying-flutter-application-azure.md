@@ -5,9 +5,9 @@ date: '2023-04-17T09:00:00.000Z'
 excerpt: >-
 tags:
   - flutter
-  - flutterweb
-  - fluttermobile
-  - flutterdevelopment
+  - cicd
+  - devops
+  - azure
 template: post
 thumb_img_path: https://img.freepik.com/premium-photo/industrial-marvel-smokestacks-pipelines-beneath-azure-skies_153608-19360.jpg
 Cover_image: https://img.freepik.com/premium-photo/industrial-marvel-smokestacks-pipelines-beneath-azure-skies_153608-19360.jpg
