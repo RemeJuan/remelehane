@@ -1,6 +1,6 @@
 ---
 stackbit_url_path: posts/deploying-flutter-application-azure
-title: "Essential Tools for Flutter Developers: Boosting Productivity and Efficiency"
+title: "Deploying a Flutter Application on Azure Pipelines: A Comprehensive Guide"
 date: '2023-04-17T09:00:00.000Z'
 excerpt: >-
 tags:
