@@ -127,5 +127,5 @@ If you have any questions, comments, or improvements, feel free to drop a commen
 
 ****
 
-- [Flutter: Up your testing game](https://remelehane.dev/posts/up-your-testing-game/)
-- [Automated Unit Testing with GitHub Actions](https://remelehane.dev/posts/automated-unit-testing-with-github-actions/)
+-  [Getting creative with Shorebird](https://remelehane.dev/posts/getting-creative-with-shorebird/)
+-  [Essential Tools for Flutter Developers: Boosting Productivity and Efficiency](https://remelehane.dev/posts/essential-tools-for-a-flutter-developer/)
