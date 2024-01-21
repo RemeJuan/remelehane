@@ -260,7 +260,7 @@ For web deployment, Flutter provides experimental support for building web appli
 
 For desktop deployment, Flutter supports building applications for Windows, macOS, and Linux. The process involves creating a release build of your app using the flutter build command and configuring the necessary platform-specific settings. Once the build is complete, you can distribute your app as an executable file or package it for distribution through app stores or package managers.
 
-Conclusion
+Conclusiong
 ----------
 
 Flutter offers a powerful and efficient framework for developing high-quality mobile applications for iOS, Android, web, and desktop platforms. With its rich set of pre-designed widgets, hot reload feature, and performance optimizations, Flutter enables developers to create visually appealing and responsive apps with ease.
