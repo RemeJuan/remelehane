@@ -10,14 +10,12 @@ tags:
   - githubactions
 template: post
 thumb_img_path: https://images.unsplash.com/photo-1556075798-4825dfaaf498?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8bG9naWN8ZW58MHx8MHx8fDA%3D
-Cover_image: https://images.unsplash.com/photo-1556075798-4825dfaaf498?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8bG9naWN8ZW58MHx8MHx8fDA%3D
+cover_image: https://images.unsplash.com/photo-1556075798-4825dfaaf498?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8bG9naWN8ZW58MHx8MHx8fDA%3D
 published_at: '2023-02-20T09:00:00.000Z'
 canonical_url: https://remelehane.dev/posts/automated-flutter-unit-testing-with-github-actions/
 ---
 
 ![](https://images.unsplash.com/photo-1556075798-4825dfaaf498?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8bG9naWN8ZW58MHx8MHx8fDA%3D)
-
-Image Source: Unsplash
 
 In the world of software development, ensuring the quality and reliability of your code is paramount. One way to achieve this is through automated unit testing. By automating the process of running tests on your code, you can catch issues early, prevent broken code from going into production, and improve overall code quality. In this article, we will explore how you can use GitHub Actions to automate unit testing for your Flutter project.
 

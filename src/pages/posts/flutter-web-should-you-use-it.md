@@ -10,14 +10,12 @@ tags:
   - flutterdevelopment
 template: post
 thumb_img_path: https://images.unsplash.com/photo-1550063873-ab792950096b?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-Cover_image: https://images.unsplash.com/photo-1550063873-ab792950096b?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-published_at: '2023-04-17T09:00:00.000Z'
+cover_image: https://images.unsplash.com/photo-1550063873-ab792950096b?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+published_at: '2023-05-15T09:00:00.000Z'
 canonical_url: https://remelehane.dev/posts/flutter-web-should-you-use-it/
 ---
 
 ![](https://images.unsplash.com/photo-1550063873-ab792950096b?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
-
-‍Image Source: Unsplash‍
 
 
 In the ever-evolving world of technology, developers are constantly seeking new frameworks and tools to streamline their workflow and create powerful applications. One such framework that has gained significant attention is Flutter. Known for its ability to build cross-platform mobile apps, Flutter has also made its way into web development. But the question remains: should you use Flutter for web development?

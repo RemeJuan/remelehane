@@ -10,15 +10,13 @@ tags:
   - riverpod
   - flutterstatemanagement
 template: post
-thumb_img_path: https://pixabay.com/get/g9e18ae899c7bc5925fdaf87debd541d4cf357ad4965c51403a5b0cee78e1f07ca467e32dc57949cf83a34a51db43bf16999579ff9c9d7324a35302fe297b1bdb_1280.png
-Cover_image: https://pixabay.com/get/g9e18ae899c7bc5925fdaf87debd541d4cf357ad4965c51403a5b0cee78e1f07ca467e32dc57949cf83a34a51db43bf16999579ff9c9d7324a35302fe297b1bdb_1280.png
+thumb_img_path: https://images.unsplash.com/photo-1556611832-c5f358b0057e?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+cover_image: https://images.unsplash.com/photo-1556611832-c5f358b0057e?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
 published_at: '2023-08-21T09:00:00.000Z'
 canonical_url: https://remelehane.dev/posts/riverpod-vs-bloc/
 ---
 
-![](https://pixabay.com/get/g9e18ae899c7bc5925fdaf87debd541d4cf357ad4965c51403a5b0cee78e1f07ca467e32dc57949cf83a34a51db43bf16999579ff9c9d7324a35302fe297b1bdb_1280.png)
-
-Photo by [MostafaElTurkey36](https://pixabay.com/users/MostafaElTurkey36-13328910/) on [Pixabay](https://pixabay.com/illustrations/character-among-us-astronaut-5673115/)
+![](https://images.unsplash.com/photo-1556611832-c5f358b0057e?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
 
 
 As Flutter continues to gain popularity among developers, the need for effective state management solutions becomes paramount. State management is a critical aspect of application development as it ensures the consistency and integrity of data across different parts of an application. Two popular state management solutions in the Flutter ecosystem are RiverPod and BLoC (Business Logic Component). In this article, we will explore both solutions, comparing their features, advantages, and use cases to help you make an informed decision for your Flutter projects.

@@ -10,16 +10,12 @@ tags:
   - azure
 template: post
 thumb_img_path: https://img.freepik.com/premium-photo/industrial-marvel-smokestacks-pipelines-beneath-azure-skies_153608-19360.jpg
-Cover_image: https://img.freepik.com/premium-photo/industrial-marvel-smokestacks-pipelines-beneath-azure-skies_153608-19360.jpg
+cover_image: https://img.freepik.com/premium-photo/industrial-marvel-smokestacks-pipelines-beneath-azure-skies_153608-19360.jpg
 published_at: '2023-04-17T09:00:00.000Z'
 canonical_url: https://remelehane.dev/posts/deploying-flutter-application-azure/
 ---
 
 ![](https://img.freepik.com/premium-photo/industrial-marvel-smokestacks-pipelines-beneath-azure-skies_153608-19360.jpg)
-
-‍
-
-Image Source: FreeImages
 
 Introduction
 ------------
