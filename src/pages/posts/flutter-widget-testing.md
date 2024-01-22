@@ -11,8 +11,8 @@ tags:
   - flutter testing
 template: post
 thumb_img_path: https://img.freepik.com/free-vector/travel-booking-app-screens_23-2148629033.jpg?size=626&ext=jpg&ga=GA1.1.1880011253.1699833600&semt=ais
-Cover_image: https://img.freepik.com/free-vector/travel-booking-app-screens_23-2148629033.jpg?size=626&ext=jpg&ga=GA1.1.1880011253.1699833600&semt=ais
-published_at: '2023-08-21T09:00:00.000Z'
+cover_image: https://img.freepik.com/free-vector/travel-booking-app-screens_23-2148629033.jpg?size=626&ext=jpg&ga=GA1.1.1880011253.1699833600&semt=ais
+published_at: '2023-10-23T09:00:00.000Z'
 canonical_url: https://remelehane.dev/posts/flutter-widget-testing/
 ---
 

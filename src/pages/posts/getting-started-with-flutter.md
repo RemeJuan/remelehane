@@ -10,8 +10,8 @@ tags:
   - flutterdevelopment
 template: post
 thumb_img_path: https://img.freepik.com/premium-vector/learn-code-flutter-mobile-ui-framework-laptop-screen-programming-language-code-illustration-vector-isolated-white-background-eps-10_399089-1925.jpg
-Cover_image: https://img.freepik.com/premium-vector/learn-code-flutter-mobile-ui-framework-laptop-screen-programming-language-code-illustration-vector-isolated-white-background-eps-10_399089-1925.jpg
-published_at: 2023-09-10 09:00 +0200
+cover_image: https://img.freepik.com/premium-vector/learn-code-flutter-mobile-ui-framework-laptop-screen-programming-language-code-illustration-vector-isolated-white-background-eps-10_399089-1925.jpg
+published_at: '2024-01-22T09:00:00.000Z'
 canonical_url: https://remelehane.dev/posts/getting-started-with-flutter/
 ---
 

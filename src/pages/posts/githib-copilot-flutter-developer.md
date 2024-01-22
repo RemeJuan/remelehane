@@ -5,13 +5,12 @@ date: '2023-12-18T09:00:00.000Z'
 excerpt: >-
 tags:
   - flutter
-  - fluttermobile
   - copilot
   - flutter
   - githubcopilot
 template: post
 thumb_img_path: https://images.unsplash.com/photo-1654277041218-84424c78f0ae?q=80&w=3524&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-Cover_image: https://images.unsplash.com/photo-1654277041218-84424c78f0ae?q=80&w=3524&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+cover_image: https://images.unsplash.com/photo-1654277041218-84424c78f0ae?q=80&w=3524&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
 published_at: '2023-12-18T09:00:00.000Z'
 canonical_url: https://remelehane.dev/posts/githib-copilot-flutter-developer/
 ---
